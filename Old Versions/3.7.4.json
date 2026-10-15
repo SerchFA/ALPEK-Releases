@@ -1,0 +1,326 @@
+{
+  "caduca": "2027-11-19T15:21:59+00:00",
+  "canal": "estable",
+  "clave_id": "alpek-2026-a",
+  "esquema": 2,
+  "fecha": "2026-10-15",
+  "indice": {
+    "archivo": "indice-e635baf4.json.gz",
+    "sha256": "7fad189a2e70e2e13b346181b23b6789ebce5fee1b01362d799dd5505fa49242",
+    "tamano_bytes": 466164,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/indice-e635baf4.json.gz"
+  },
+  "instalador": {
+    "archivo": "ALPEK_Setup_3.7.4.exe",
+    "sha256": "858e49d480ef040e9aa7e1d8d180f95ea3a11526b7750e46fd8bb5c563418457",
+    "tamano_bytes": 801644644,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/ALPEK_Setup_3.7.4.exe"
+  },
+  "novedades": {
+    "1.0.1": {
+      "en": [
+        "Fixes the comparison between part number and measures: two materials with different measures are no longer grouped.",
+        "Pairs that the engine rules out as «not the same» are no longer joined through a third material either.",
+        "The «to review» threshold of the Strict sensitivity goes from 85 % to 90 %."
+      ],
+      "es": [
+        "Corrige la comparación entre número de parte y medidas: dos materiales con medidas distintas ya no se agrupan.",
+        "Los pares que el motor descarta como «no son lo mismo» tampoco se juntan por medio de un tercer material.",
+        "El umbral «por revisar» de la sensibilidad Estricta pasa de 85 % a 90 %."
+      ],
+      "pt": [
+        "Corrige a comparação entre número de peça e medidas: dois materiais com medidas diferentes não são mais agrupados.",
+        "Os pares que o motor descarta como «não são o mesmo» também não se juntam por meio de um terceiro material.",
+        "O limite «para revisar» da sensibilidade Estrita passa de 85 % para 90 %."
+      ]
+    },
+    "1.1.1": {
+      "en": [
+        "The configuration (dictionaries and settings) travels with each version: when updating, the program synchronizes it and keeps a copy of the previous one.",
+        "Your data and work files are not touched when updating."
+      ],
+      "es": [
+        "La configuración (diccionarios y ajustes) viaja con cada versión: al actualizar, el programa la sincroniza y guarda una copia de la anterior.",
+        "Tus datos y archivos de trabajo no se tocan al actualizar."
+      ],
+      "pt": [
+        "A configuração (dicionários e ajustes) viaja com cada versão: ao atualizar, o programa a sincroniza e guarda uma cópia da anterior.",
+        "Seus dados e arquivos de trabalho não são alterados ao atualizar."
+      ]
+    },
+    "1.1.2": {
+      "en": [
+        "Internal security improvement: the audit key is no longer written in the source code. The Excel file is generated exactly as before."
+      ],
+      "es": [
+        "Mejora interna de seguridad: la clave de auditoría ya no está escrita en el código fuente. El Excel se genera igual que antes."
+      ],
+      "pt": [
+        "Melhoria interna de segurança: a chave de auditoria não está mais escrita no código-fonte. O Excel é gerado exatamente como antes."
+      ]
+    },
+    "1.2.2": {
+      "en": [
+        "New Settings screen (button in the top bar): language, «Clear memory» and program information.",
+        "«Clear memory» frees temporary memory without touching your loaded files, exported Excel files or the previous session."
+      ],
+      "es": [
+        "Nueva pantalla de Ajustes (botón en la barra superior): idioma, «Limpiar memoria» y datos del programa.",
+        "«Limpiar memoria» libera la memoria temporal sin tocar tus archivos cargados, los Excel exportados ni la sesión anterior."
+      ],
+      "pt": [
+        "Nova tela de Configurações (botão na barra superior): idioma, «Limpar memória» e dados do programa.",
+        "«Limpar memória» libera a memória temporária sem alterar seus arquivos carregados, os Excel exportados nem a sessão anterior."
+      ]
+    },
+    "1.3.2": {
+      "en": [
+        "New «What's new» tab in Settings: what each version brings, in your language."
+      ],
+      "es": [
+        "Nueva pestaña «Novedades» en Ajustes: lo que trae cada versión, en tu idioma."
+      ],
+      "pt": [
+        "Nova aba «Novidades» em Configurações: o que cada versão traz, no seu idioma."
+      ]
+    },
+    "1.4.2": {
+      "en": [
+        "Light or dark theme in Settings > General. It is saved and applies the next time you open the program."
+      ],
+      "es": [
+        "Tema claro u oscuro en Ajustes > General. Se guarda y se aplica la próxima vez que abras el programa."
+      ],
+      "pt": [
+        "Tema claro ou escuro em Configurações > Geral. É salvo e vale na próxima vez que você abrir o programa."
+      ]
+    },
+    "1.5.2": {
+      "en": [
+        "Settings > What's new now has a «Change Log» banner showing the version the program was updated to."
+      ],
+      "es": [
+        "En Ajustes > Novedades hay un banner «Registro de cambios» con la versión a la que se actualizó el programa."
+      ],
+      "pt": [
+        "Em Configurações > Novidades há um banner «Registro de alterações» com a versão para a qual o programa foi atualizado."
+      ]
+    },
+    "2.5.2": {
+      "en": [
+        "New workstream home screen (Accounting, Maintenance, Manufacturing, Procurement, Quality, Sales and Supply Chain) with an always-visible side menu: pick the workstream and see its tools.",
+        "The «Home › Workstream › Tool» path is shown at the top, and «Switch tool» goes back to the list of your workstream.",
+        "Language (ES / EN / PT) and theme are changed only in Settings > General.",
+        "The side menu appears once you choose a workstream, and when you switch tools the program frees its temporary memory so it does not get overloaded."
+      ],
+      "es": [
+        "Nueva pantalla de inicio por workstream (Accounting, Maintenance, Manufacturing, Procurement, Quality, Sales y Supply Chain) con un menú lateral siempre visible: eliges el workstream y ves sus herramientas.",
+        "La ruta «Inicio › Workstream › Herramienta» se muestra arriba, y «Cambiar herramienta» vuelve a la lista de tu workstream.",
+        "El idioma (ES / EN / PT) y el tema se cambian solo en Ajustes > General.",
+        "El menú lateral aparece al elegir un workstream, y al cambiar de herramienta el programa libera su memoria temporal para no saturarse."
+      ],
+      "pt": [
+        "Nova tela inicial por workstream (Accounting, Maintenance, Manufacturing, Procurement, Quality, Sales e Supply Chain) com um menu lateral sempre visível: você escolhe o workstream e vê as suas ferramentas.",
+        "O caminho «Início › Workstream › Ferramenta» aparece no topo, e «Trocar ferramenta» volta à lista do seu workstream.",
+        "O idioma (ES / EN / PT) e o tema são alterados apenas em Configurações > Geral.",
+        "O menu lateral aparece ao escolher um workstream e, ao trocar de ferramenta, o programa libera sua memória temporária para não sobrecarregar."
+      ]
+    },
+    "3.5.2": {
+      "en": [
+        "A.L.P.E.K. now opens in its own window (no longer in a browser tab). If your computer cannot open it, it uses the browser as before.",
+        "When you close the window, the program closes and cleans up completely; there is no black console to close anymore."
+      ],
+      "es": [
+        "A.L.P.E.K. ahora se abre en su propia ventana (ya no en una pestaña del navegador). Si tu equipo no la puede abrir, usa el navegador como antes.",
+        "Al cerrar la ventana, el programa se cierra y limpia por completo; ya no hay una consola negra que cerrar."
+      ],
+      "pt": [
+        "O A.L.P.E.K. agora abre em sua própria janela (e não mais em uma aba do navegador). Se o seu computador não conseguir abri-la, usa o navegador como antes.",
+        "Ao fechar a janela, o programa se encerra e limpa tudo; não há mais um console preto para fechar."
+      ]
+    },
+    "3.5.3": {
+      "en": [
+        "Opening the program in its own window no longer opens an extra browser tab as well."
+      ],
+      "es": [
+        "Al abrir el programa en su ventana propia ya no se abre además una pestaña del navegador."
+      ],
+      "pt": [
+        "Ao abrir o programa na janela própria, não se abre mais uma aba extra do navegador."
+      ]
+    },
+    "3.6.3": {
+      "en": [
+        "In Settings > What's new, each version now shows whether it was a Fix, a Feature or a Major Update."
+      ],
+      "es": [
+        "En Ajustes > Novedades cada versión muestra si fue una Corrección, una Función nueva o una Actualización mayor."
+      ],
+      "pt": [
+        "Em Configurações > Novidades, cada versão mostra se foi uma Correção, uma Funcionalidade ou uma Atualização principal."
+      ]
+    },
+    "3.7.3": {
+      "en": [
+        "New: in Settings > Updates you can check for the new version, download it with a progress bar and install it when you confirm; only the files that changed are downloaded.",
+        "Every update is verified with a digital signature and checksums before installing; if anything fails, the previous version is kept.",
+        "A discreet notice tells you when a new version is available. You can turn off the automatic check in Settings."
+      ],
+      "es": [
+        "Nuevo: en Ajustes > Actualizaciones puedes buscar la versión nueva, descargarla con barra de progreso e instalarla cuando tú lo confirmes; baja solo los archivos que cambiaron.",
+        "Cada actualización se verifica con firma digital y huellas antes de instalarse; si algo falla, se conserva la versión anterior.",
+        "Un aviso discreto te dice cuando hay una versión nueva. Puedes desactivar la búsqueda automática en Ajustes."
+      ],
+      "pt": [
+        "Novo: em Configurações > Atualizações você pode buscar a versão nova, baixá-la com barra de progresso e instalá-la quando confirmar; só os arquivos que mudaram são baixados.",
+        "Cada atualização é verificada com assinatura digital e checksums antes de instalar; se algo falhar, a versão anterior é mantida.",
+        "Um aviso discreto informa quando há uma versão nova. Você pode desativar a busca automática em Configurações."
+      ]
+    },
+    "3.7.4": {
+      "en": [
+        "Tools now appear in the right workstreams: Materials in Procurement, Manufacturing, Maintenance and Quality; Customers and suppliers in Procurement and Sales. Accounting and Supply Chain show «Coming soon»."
+      ],
+      "es": [
+        "Las herramientas ahora aparecen en los workstreams que corresponden: Materiales en Compras, Manufactura, Mantenimiento y Calidad; Clientes y proveedores en Compras y Ventas. Contabilidad y Cadena de Suministro quedan como «Próximamente»."
+      ],
+      "pt": [
+        "As ferramentas agora aparecem nos workstreams corretos: Materiais em Compras, Manufatura, Manutenção e Qualidade; Clientes e fornecedores em Compras e Vendas. Contabilidade e Cadeia de Suprimentos aparecem como «Em breve»."
+      ]
+    }
+  },
+  "paquetes": [
+    {
+      "archivo": "app-8352791e.zip",
+      "id": "app-8352791e",
+      "sha256": "8352791e326c40e7c0d1a8fc2dc9bd0100dc2316a23a91e6bb57f8cbceaef3a7",
+      "tamano_bytes": 93604972,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/app-8352791e.zip"
+    },
+    {
+      "archivo": "duckdb_cp311-win_amd64_pyd-54b7e370.zip",
+      "id": "duckdb_cp311-win_amd64_pyd-54b7e370",
+      "sha256": "54b7e370d834ba3e4d8f27de518f44c1ad48cd4bb46b75dbe7f2de3534d15e20",
+      "tamano_bytes": 13050004,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/duckdb_cp311-win_amd64_pyd-54b7e370.zip"
+    },
+    {
+      "archivo": "polars_runtime_32-1-670b6b6c.zip",
+      "id": "polars_runtime_32-1-670b6b6c",
+      "sha256": "670b6b6cfcbc1c0d3356c64f3e4747322fec333bb9f6c8bf38b7e8d1dfcb5427",
+      "tamano_bytes": 51378554,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/polars_runtime_32-1-670b6b6c.zip"
+    },
+    {
+      "archivo": "faiss_cpu_libs-0cb29150.zip",
+      "id": "faiss_cpu_libs-0cb29150",
+      "sha256": "0cb291500be5d29a9511aed0997de855c2943c6151744fa7096f96e09f828c57",
+      "tamano_bytes": 12945057,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/faiss_cpu_libs-0cb29150.zip"
+    },
+    {
+      "archivo": "numpy_libs-8c722ac1.zip",
+      "id": "numpy_libs-8c722ac1",
+      "sha256": "8c722ac110edcec66f07cb2a9430712ee6ecce2251a63861159c21b5d9e8318c",
+      "tamano_bytes": 6691914,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/numpy_libs-8c722ac1.zip"
+    },
+    {
+      "archivo": "pyarrow-3d4fe4ab.zip",
+      "id": "pyarrow-3d4fe4ab",
+      "sha256": "3d4fe4ab5417841c42a4e04626ab72d3faf583cb1a7370ba21eff24957025780",
+      "tamano_bytes": 27608709,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/pyarrow-3d4fe4ab.zip"
+    },
+    {
+      "archivo": "scipy-f2fd7e38.zip",
+      "id": "scipy-f2fd7e38",
+      "sha256": "f2fd7e386df16e4a83225e912bbb0abdf67001f03f334e704aa2ad79d9fa3f2e",
+      "tamano_bytes": 20081590,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/scipy-f2fd7e38.zip"
+    },
+    {
+      "archivo": "sklearn-fa855c86.zip",
+      "id": "sklearn-fa855c86",
+      "sha256": "fa855c861cdd0778c5d61eb21602ccd9980c1889773bade600560297a31b90be",
+      "tamano_bytes": 8299816,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/sklearn-fa855c86.zip"
+    },
+    {
+      "archivo": "streamlit-1ab193e9.zip",
+      "id": "streamlit-1ab193e9",
+      "sha256": "1ab193e935277cd6c4fe16296ac550f9389e70721a162246759e1d52142b000a",
+      "tamano_bytes": 10063605,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/streamlit-1ab193e9.zip"
+    },
+    {
+      "archivo": "torch-1-8e988bc2.zip",
+      "id": "torch-1-8e988bc2",
+      "sha256": "8e988bc2f5d1e5fad85e6624e1b18785a633d2455918ce8e45b08951bfc315c7",
+      "tamano_bytes": 11475056,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/torch-1-8e988bc2.zip"
+    },
+    {
+      "archivo": "torch-2-aadc1833.zip",
+      "id": "torch-2-aadc1833",
+      "sha256": "aadc1833a26104e5e30f9a8b0f1447768472e80de124bc3092e1f06ee34941b9",
+      "tamano_bytes": 84365947,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/torch-2-aadc1833.zip"
+    },
+    {
+      "archivo": "torch-3-d7e87c9e.zip",
+      "id": "torch-3-d7e87c9e",
+      "sha256": "d7e87c9ecace625d74094dc4353d0115a0e2368a96492087127232707fec2c6d",
+      "tamano_bytes": 8980558,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/torch-3-d7e87c9e.zip"
+    },
+    {
+      "archivo": "transformers-10c733ee.zip",
+      "id": "transformers-10c733ee",
+      "sha256": "10c733ee9f52aea58e7cc159e629af7d909fc1960ab15fbdf9a8fad0c3a7e622",
+      "tamano_bytes": 10110424,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/transformers-10c733ee.zip"
+    },
+    {
+      "archivo": "models-multilingual-e5-base-1-f86c3b20.zip",
+      "id": "models-multilingual-e5-base-1-f86c3b20",
+      "sha256": "f86c3b2042d70875fd5c62ed761eb043a1efdf0b95083ead0a1b7c1cb6e2dba7",
+      "tamano_bytes": 801,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/models-multilingual-e5-base-1-f86c3b20.zip"
+    },
+    {
+      "archivo": "models-multilingual-e5-base-2-3bd70332.zip",
+      "id": "models-multilingual-e5-base-2-3bd70332",
+      "sha256": "3bd70332583c85740fc6bc80dd09445672747e50c5753d9bc3bf180492fe1458",
+      "tamano_bytes": 654703659,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/models-multilingual-e5-base-2-3bd70332.zip"
+    },
+    {
+      "archivo": "models-multilingual-e5-base-3-9df28fab.zip",
+      "id": "models-multilingual-e5-base-3-9df28fab",
+      "sha256": "9df28fab139064ba3b2395498814e53bd3e68f6f46657153a2371e8cbc069ac0",
+      "tamano_bytes": 13194518,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/models-multilingual-e5-base-3-9df28fab.zip"
+    },
+    {
+      "archivo": "varios-1-8982cadd.zip",
+      "id": "varios-1-8982cadd",
+      "sha256": "8982cadd6881e5a81b87fbd8ae177c79cbd0df254e1fd3835f06e488add914b0",
+      "tamano_bytes": 39751419,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/varios-1-8982cadd.zip"
+    },
+    {
+      "archivo": "varios-2-1ebad3b1.zip",
+      "id": "varios-2-1ebad3b1",
+      "sha256": "1ebad3b10609675fb388800fa8d69b76e19c4ca1a5ef1de5b886845b0d0c22ed",
+      "tamano_bytes": 15557159,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/varios-2-1ebad3b1.zip"
+    }
+  ],
+  "producto": "ALPEK",
+  "solo_instalador": false,
+  "tipo": "fix",
+  "version": "3.7.4"
+}

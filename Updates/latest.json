@@ -1,20 +1,20 @@
 {
-  "caduca": "2027-11-19T15:21:59+00:00",
+  "caduca": "2027-11-19T19:04:47+00:00",
   "canal": "estable",
   "clave_id": "alpek-2026-a",
   "esquema": 2,
   "fecha": "2026-10-15",
   "indice": {
-    "archivo": "indice-e635baf4.json.gz",
-    "sha256": "7fad189a2e70e2e13b346181b23b6789ebce5fee1b01362d799dd5505fa49242",
-    "tamano_bytes": 466164,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/indice-e635baf4.json.gz"
+    "archivo": "indice-1bd5a131.json.gz",
+    "sha256": "387b95e7885e5211239f34b14a9b0a13e689d7462770cd47d140d05e88222ecd",
+    "tamano_bytes": 466263,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.5/indice-1bd5a131.json.gz"
   },
   "instalador": {
-    "archivo": "ALPEK_Setup_3.7.4.exe",
-    "sha256": "858e49d480ef040e9aa7e1d8d180f95ea3a11526b7750e46fd8bb5c563418457",
-    "tamano_bytes": 801644644,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/ALPEK_Setup_3.7.4.exe"
+    "archivo": "ALPEK_Setup_3.8.5.exe",
+    "sha256": "6426e1f2d56e5f8f9ab05e90a5e4d3d0948ce4cba8a65440be91865b2ac9f3c0",
+    "tamano_bytes": 801675314,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.5/ALPEK_Setup_3.8.5.exe"
   },
   "novedades": {
     "1.0.1": {
@@ -189,15 +189,46 @@
       "pt": [
         "As ferramentas agora aparecem nos workstreams corretos: Materiais em Compras, Manufatura, Manutenção e Qualidade; Clientes e fornecedores em Compras e Vendas. Contabilidade e Cadeia de Suprimentos aparecem como «Em breve»."
       ]
+    },
+    "3.7.5": {
+      "en": [
+        "Settings > Updates no longer shows the full repository address: only «GitHub · ALPEK-Releases», with a link.",
+        "When the side menu is hidden, the screen is now centered; before it stayed shifted to the right.",
+        "In step 2 of Materials, «How demanding do you want to be» is now two filters with fixed levels (Strict, Normal and Flexible), one for the description and one for the long text, together and without sliders. «Harmonize» also uses the three levels and only appears when comparing ECC against S/4HANA."
+      ],
+      "es": [
+        "En Ajustes > Actualizaciones ya no se muestra la dirección completa del repositorio: solo «GitHub · ALPEK-Releases», con un enlace.",
+        "Al ocultar el menú lateral, la pantalla se centra; antes quedaba corrida a la derecha.",
+        "En el paso 2 de Materiales, «Qué tan exigente quieres ser» ahora son dos filtros con niveles fijos (Estricto, Normal y Flexible), uno para la descripción y otro para el texto largo, juntos y sin barras. «Homologar» también usa los tres niveles y solo aparece al comparar ECC contra S/4HANA."
+      ],
+      "pt": [
+        "Em Configurações > Atualizações não aparece mais o endereço completo do repositório: apenas «GitHub · ALPEK-Releases», com um link.",
+        "Ao ocultar o menu lateral, a tela fica centralizada; antes ficava deslocada para a direita.",
+        "Na etapa 2 de Materiais, «Qual o nível de exigência» agora são dois filtros com níveis fixos (Estrito, Normal e Flexível), um para a descrição e outro para o texto longo, juntos e sem barras. «Homologar» também usa os três níveis e só aparece ao comparar ECC contra S/4HANA."
+      ]
+    },
+    "3.8.5": {
+      "en": [
+        "New «FAQ» tab in Settings: short answers, with search and no internet needed, about the step 2 criteria, the Excel, updates and more.",
+        "If you can't find your question, contact the Master Data Supervisor."
+      ],
+      "es": [
+        "Nueva pestaña «Preguntas frecuentes» en Ajustes: respuestas cortas, con buscador y sin internet, sobre los criterios del paso 2, el Excel, las actualizaciones y más.",
+        "Si no encuentras tu duda, contacta al Supervisor de Datos Maestros."
+      ],
+      "pt": [
+        "Nova aba «Perguntas frequentes» em Configurações: respostas curtas, com busca e sem internet, sobre os critérios da etapa 2, o Excel, as atualizações e mais.",
+        "Se não encontrar sua dúvida, entre em contato com o Supervisor de Dados Mestres."
+      ]
     }
   },
   "paquetes": [
     {
-      "archivo": "app-8352791e.zip",
-      "id": "app-8352791e",
-      "sha256": "8352791e326c40e7c0d1a8fc2dc9bd0100dc2316a23a91e6bb57f8cbceaef3a7",
-      "tamano_bytes": 93604972,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/app-8352791e.zip"
+      "archivo": "app-f7dd8c3b.zip",
+      "id": "app-f7dd8c3b",
+      "sha256": "f7dd8c3bf43efc50ad68f3a6f10f061e43582726d7f0468d80888871f697626a",
+      "tamano_bytes": 93624825,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.5/app-f7dd8c3b.zip"
     },
     {
       "archivo": "duckdb_cp311-win_amd64_pyd-54b7e370.zip",
@@ -321,6 +352,6 @@
   ],
   "producto": "ALPEK",
   "solo_instalador": false,
-  "tipo": "fix",
-  "version": "3.7.4"
+  "tipo": "feat",
+  "version": "3.8.5"
 }
