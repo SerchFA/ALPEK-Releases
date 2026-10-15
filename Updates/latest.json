@@ -1,20 +1,20 @@
 {
-  "caduca": "2027-11-19T19:04:47+00:00",
+  "caduca": "2027-11-19T19:59:21+00:00",
   "canal": "estable",
   "clave_id": "alpek-2026-a",
   "esquema": 2,
   "fecha": "2026-10-15",
   "indice": {
-    "archivo": "indice-1bd5a131.json.gz",
-    "sha256": "387b95e7885e5211239f34b14a9b0a13e689d7462770cd47d140d05e88222ecd",
-    "tamano_bytes": 466263,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.5/indice-1bd5a131.json.gz"
+    "archivo": "indice-e173a7ff.json.gz",
+    "sha256": "f69f2014364097393df471937df42e602516bc08376a0a780a36d3b6fbcd1615",
+    "tamano_bytes": 466306,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.6/indice-e173a7ff.json.gz"
   },
   "instalador": {
-    "archivo": "ALPEK_Setup_3.8.5.exe",
-    "sha256": "6426e1f2d56e5f8f9ab05e90a5e4d3d0948ce4cba8a65440be91865b2ac9f3c0",
-    "tamano_bytes": 801675314,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.5/ALPEK_Setup_3.8.5.exe"
+    "archivo": "ALPEK_Setup_3.8.6.exe",
+    "sha256": "76ca6e049fd3dd9d18e306d3c0663e7804cfbcf7a72df4a398f38c80ff51565a",
+    "tamano_bytes": 801675704,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.6/ALPEK_Setup_3.8.6.exe"
   },
   "novedades": {
     "1.0.1": {
@@ -220,15 +220,29 @@
         "Nova aba «Perguntas frequentes» em Configurações: respostas curtas, com busca e sem internet, sobre os critérios da etapa 2, o Excel, as atualizações e mais.",
         "Se não encontrar sua dúvida, entre em contato com o Supervisor de Dados Mestres."
       ]
+    },
+    "3.8.6": {
+      "en": [
+        "Settings > Updates: the «Download» button now appears right away when a new version is found; before it could stay hidden while the program verified the installed files.",
+        "The download size is worked out in the background and shown when ready."
+      ],
+      "es": [
+        "Ajustes > Actualizaciones: el botón «Descargar» aparece de inmediato al encontrar una versión nueva; antes podía no mostrarse mientras el programa verificaba los archivos instalados.",
+        "El tamaño de la descarga se calcula en segundo plano y se muestra cuando está listo."
+      ],
+      "pt": [
+        "Configurações > Atualizações: o botão «Baixar» aparece imediatamente ao encontrar uma versão nova; antes podia não aparecer enquanto o programa verificava os arquivos instalados.",
+        "O tamanho do download é calculado em segundo plano e mostrado quando estiver pronto."
+      ]
     }
   },
   "paquetes": [
     {
-      "archivo": "app-f7dd8c3b.zip",
-      "id": "app-f7dd8c3b",
-      "sha256": "f7dd8c3bf43efc50ad68f3a6f10f061e43582726d7f0468d80888871f697626a",
-      "tamano_bytes": 93624825,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.5/app-f7dd8c3b.zip"
+      "archivo": "app-d25da38a.zip",
+      "id": "app-d25da38a",
+      "sha256": "d25da38abd65bc7d68aa36b57293d3b7bd8a9766f005320e9913e80e5fc90450",
+      "tamano_bytes": 93625899,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.6/app-d25da38a.zip"
     },
     {
       "archivo": "duckdb_cp311-win_amd64_pyd-54b7e370.zip",
@@ -353,5 +367,5 @@
   "producto": "ALPEK",
   "solo_instalador": false,
   "tipo": "feat",
-  "version": "3.8.5"
+  "version": "3.8.6"
 }
