@@ -1,20 +1,20 @@
 {
-  "caduca": "2027-11-19T19:59:21+00:00",
+  "caduca": "2027-11-19T22:26:19+00:00",
   "canal": "estable",
   "clave_id": "alpek-2026-a",
   "esquema": 2,
   "fecha": "2026-10-15",
   "indice": {
-    "archivo": "indice-e173a7ff.json.gz",
-    "sha256": "f69f2014364097393df471937df42e602516bc08376a0a780a36d3b6fbcd1615",
-    "tamano_bytes": 466306,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.6/indice-e173a7ff.json.gz"
+    "archivo": "indice-697d98fa.json.gz",
+    "sha256": "693c413ec724d44b7f39893463e7c0dd9254c176cef78ca3573445c03b8eec7d",
+    "tamano_bytes": 466359,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.6/indice-697d98fa.json.gz"
   },
   "instalador": {
-    "archivo": "ALPEK_Setup_3.8.6.exe",
-    "sha256": "76ca6e049fd3dd9d18e306d3c0663e7804cfbcf7a72df4a398f38c80ff51565a",
-    "tamano_bytes": 801675704,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.6/ALPEK_Setup_3.8.6.exe"
+    "archivo": "ALPEK_Setup_3.9.6.exe",
+    "sha256": "03afc11fe3f46676c72199123edd42cbf27b9429fa9c88655095521b7db8e438",
+    "tamano_bytes": 801743085,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.6/ALPEK_Setup_3.9.6.exe"
   },
   "novedades": {
     "1.0.1": {
@@ -234,15 +234,50 @@
         "Configurações > Atualizações: o botão «Baixar» aparece imediatamente ao encontrar uma versão nova; antes podia não aparecer enquanto o programa verificava os arquivos instalados.",
         "O tamanho do download é calculado em segundo plano e mostrado quando estiver pronto."
       ]
+    },
+    "3.9.6": {
+      "en": [
+        "Materials remembers what you already discarded («Not duplicates» or separated from a group): it does not come back in later searches. You can turn it off or forget it in the Criteria step.",
+        "If your extract has the inventory value, the review starts with the most valuable groups and each group shows its value.",
+        "Each group and each pair has «Why are they considered similar?»: which words and measures they share and what only each one has.",
+        "Criteria profiles: save your step 2 choice with a name (for example «Maintenance · Flexible») and apply it in one click.",
+        "When exporting you see how you are doing compared with the previous search (groups, to review, materials analyzed).",
+        "New «Split the review»: a ZIP with one Excel per material type or group, to send each person their part.",
+        "New «Executive summary»: a one-page PDF with the key figures and the trend.",
+        "New «Export diagnostics» in Settings > About: a ZIP for the Master Data Supervisor or IT, with no SAP data.",
+        "Includes the fix for the «Download» button in Settings > Updates (3.8.6)."
+      ],
+      "es": [
+        "Materiales recuerda lo que ya descartaste («No son duplicados» o separado de un grupo): no vuelve a salir en las siguientes búsquedas. Se puede apagar u olvidar en el paso Criterios.",
+        "Si tu extracto trae el valor del inventario, la revisión empieza por los grupos que más valen y cada grupo muestra su valor.",
+        "Cada grupo y cada par trae «¿Por qué se consideran parecidos?»: qué palabras y medidas comparten y qué trae solo cada uno.",
+        "Perfiles de criterios: guarda tu elección del paso 2 con un nombre (por ejemplo «Mantenimiento · Flexible») y aplícala en un clic.",
+        "Al exportar ves cómo va frente a la búsqueda anterior (grupos, por revisar, materiales analizados).",
+        "Nuevo «Repartir la revisión»: un ZIP con un Excel por tipo o grupo de material, para mandar a cada quien lo suyo.",
+        "Nuevo «Resumen ejecutivo»: un PDF de una página con las cifras clave y la tendencia.",
+        "Nuevo «Exportar diagnóstico» en Ajustes > Acerca de: un ZIP para el Supervisor de Datos Maestros o TI, sin datos de SAP.",
+        "Incluye la corrección del botón «Descargar» de Ajustes > Actualizaciones (3.8.6)."
+      ],
+      "pt": [
+        "Materiais lembra o que você já descartou («Não são duplicados» ou separado de um grupo): não volta nas próximas buscas. Pode ser desligado ou esquecido na etapa Critérios.",
+        "Se o seu extrato trouxer o valor do estoque, a revisão começa pelos grupos que mais valem e cada grupo mostra seu valor.",
+        "Cada grupo e cada par traz «Por que são considerados parecidos?»: quais palavras e medidas compartilham e o que traz só cada um.",
+        "Perfis de critérios: salve sua escolha da etapa 2 com um nome (por exemplo «Manutenção · Flexível») e aplique com um clique.",
+        "Ao exportar você vê como está em relação à busca anterior (grupos, para revisar, materiais analisados).",
+        "Novo «Repartir a revisão»: um ZIP com um Excel por tipo ou grupo de material, para enviar a cada pessoa a sua parte.",
+        "Novo «Resumo executivo»: um PDF de uma página com os números-chave e a tendência.",
+        "Novo «Exportar diagnóstico» em Configurações > Sobre: um ZIP para o Supervisor de Dados Mestres ou a TI, sem dados do SAP.",
+        "Inclui a correção do botão «Baixar» em Configurações > Atualizações (3.8.6)."
+      ]
     }
   },
   "paquetes": [
     {
-      "archivo": "app-d25da38a.zip",
-      "id": "app-d25da38a",
-      "sha256": "d25da38abd65bc7d68aa36b57293d3b7bd8a9766f005320e9913e80e5fc90450",
-      "tamano_bytes": 93625899,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.8.6/app-d25da38a.zip"
+      "archivo": "app-cd9f7fd2.zip",
+      "id": "app-cd9f7fd2",
+      "sha256": "cd9f7fd26c747354b03fc8e2904d7dc916bd83e6ef99e901ac9a2879e7845ba1",
+      "tamano_bytes": 93701245,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.6/app-cd9f7fd2.zip"
     },
     {
       "archivo": "duckdb_cp311-win_amd64_pyd-54b7e370.zip",
@@ -367,5 +402,5 @@
   "producto": "ALPEK",
   "solo_instalador": false,
   "tipo": "feat",
-  "version": "3.8.6"
+  "version": "3.9.6"
 }
