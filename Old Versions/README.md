@@ -1,5 +1,3 @@
 # Old Versions
 
-Fichas `<versión>.json` de las versiones que ya fueron reemplazadas por una más nueva. Cuando una versión sale de [`Updates/`](../Updates/), su ficha se mueve aquí.
-
-Todavía no hay versiones reemplazadas.
+Aquí quedan el manifiesto y la firma (`<versión>.json` y `<versión>.json.sig`) de cada versión que ya fue reemplazada en [`Updates/`](../Updates/). Los instaladores y paquetes de cada versión siguen en su Release `v<versión>`.
