@@ -1,0 +1,3 @@
+# Los manifiestos y sus firmas se firman sobre bytes exactos: nunca convertir finales de linea
+Updates/* -text
+"Old Versions/*" -text
