@@ -1,20 +1,20 @@
 {
-  "caduca": "2027-11-23T16:09:17+00:00",
+  "caduca": "2027-11-23T21:46:34+00:00",
   "canal": "estable",
   "clave_id": "alpek-2026-a",
   "esquema": 2,
   "fecha": "2026-10-19",
   "indice": {
-    "archivo": "indice-ae557915.json.gz",
-    "sha256": "f2a38f75f9e55538a77b84f8cfb99e078e976d9e4b8b2b41f71c756dc5ce3c37",
-    "tamano_bytes": 466404,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.7/indice-ae557915.json.gz"
+    "archivo": "indice-c83d119e.json.gz",
+    "sha256": "6402dcbd4c790f49656ca4224bd839afedf0e730d5d8793c523bcdef184b9a8e",
+    "tamano_bytes": 466466,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.10.7/indice-c83d119e.json.gz"
   },
   "instalador": {
-    "archivo": "ALPEK_Setup_3.9.7.exe",
-    "sha256": "d269c3c6a6d27b1c9f1706c8e818de4c2fe61c9289f331e155652765b0a12cc1",
-    "tamano_bytes": 801744740,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.7/ALPEK_Setup_3.9.7.exe"
+    "archivo": "ALPEK_Setup_3.10.7.exe",
+    "sha256": "a7e4179891848e22fa0a8b7e5ff1b41e3925b8daf4f3359537915357f20cecb5",
+    "tamano_bytes": 801823380,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.10.7/ALPEK_Setup_3.10.7.exe"
   },
   "novedades": {
     "1.0.1": {
@@ -124,6 +124,32 @@
         "O caminho «Início › Workstream › Ferramenta» aparece no topo, e «Trocar ferramenta» volta à lista do seu workstream.",
         "O idioma (ES / EN / PT) e o tema são alterados apenas em Configurações > Geral.",
         "O menu lateral aparece ao escolher um workstream e, ao trocar de ferramenta, o programa libera sua memória temporária para não sobrecarregar."
+      ]
+    },
+    "3.10.7": {
+      "en": [
+        "Customers and suppliers now has the same Criteria step as Materials: Filter 1 · Name and Filter 2 · Address with Strict / Normal / Flexible, an account-group filter, profiles and «Remember my decisions».",
+        "New warnings (⚠) that explain why a pair does not come out as a sure duplicate: branches (BRANCH 1 and 2), the same street with another number, different addresses, an almost identical tax ID and the same ID with another name.",
+        "No record with a useful pair is hidden any more: the «to review» ones join their group as «in doubt» and ECC versus S/4HANA lists every candidate.",
+        "Customers and suppliers also bring «Why are they considered similar?», a trend against the previous search, split the review (by account group or country) and the executive summary as a PDF.",
+        "New «Do not belong to the group» button in Materials and in Customers and suppliers: it takes several records out of the group at once, without closing it or moving on to the next one.",
+        "Materials understands typing errors better (for example «SEEL» for «STEEL»): with one error per description it finds 73 % of the duplicates instead of 56 %, with no loss of precision."
+      ],
+      "es": [
+        "Clientes y proveedores tiene ahora el mismo paso Criterios que Materiales: Filtro 1 · Nombre y Filtro 2 · Dirección con Estricto / Normal / Flexible, filtro por grupo de cuentas, perfiles y «Recordar mis decisiones».",
+        "Nuevos avisos (⚠) que explican por qué un par no sale como duplicado seguro: sucursales (SUC 1 y SUC 2), la misma calle con otro número, direcciones distintas, ID fiscal casi igual y el mismo ID con otro nombre.",
+        "Ningún registro con un par útil queda oculto: los «por revisar» entran a su grupo como «en duda» y ECC contra S/4HANA lista todos los candidatos.",
+        "Clientes y proveedores también trae «¿Por qué se consideran parecidos?», tendencia frente a la búsqueda anterior, repartir la revisión (por grupo de cuentas o país) y el resumen ejecutivo en PDF.",
+        "Nuevo botón «No pertenecen al grupo» en Materiales y en Clientes y proveedores: saca de una vez a varios registros del grupo, sin cerrarlo ni pasar al siguiente.",
+        "Materiales entiende mejor los errores de captura (por ejemplo «SEEL» por «STEEL»): con un error por descripción encuentra 73 % de los duplicados en lugar de 56 %, sin perder precisión."
+      ],
+      "pt": [
+        "Clientes e fornecedores agora tem a mesma etapa Critérios que Materiais: Filtro 1 · Nome e Filtro 2 · Endereço com Estrito / Normal / Flexível, filtro por grupo de contas, perfis e «Lembrar minhas decisões».",
+        "Novos avisos (⚠) que explicam por que um par não sai como duplicado seguro: filiais (FILIAL 1 e 2), a mesma rua com outro número, endereços diferentes, ID fiscal quase igual e o mesmo ID com outro nome.",
+        "Nenhum registro com um par útil fica escondido: os «para revisar» entram no seu grupo como «em dúvida» e ECC frente ao S/4HANA lista todos os candidatos.",
+        "Clientes e fornecedores também traz «Por que são considerados parecidos?», tendência em relação à busca anterior, repartir a revisão (por grupo de contas ou país) e o resumo executivo em PDF.",
+        "Novo botão «Não pertencem ao grupo» em Materiais e em Clientes e fornecedores: tira vários registros do grupo de uma vez, sem fechá-lo nem passar ao próximo.",
+        "Materiais entende melhor os erros de digitação (por exemplo «SEEL» por «STEEL»): com um erro por descrição encontra 73 % dos duplicados em vez de 56 %, sem perder precisão."
       ]
     },
     "3.5.2": {
@@ -293,11 +319,11 @@
   },
   "paquetes": [
     {
-      "archivo": "app-bc232ebe.zip",
-      "id": "app-bc232ebe",
-      "sha256": "bc232ebe17b5ed7942eb7500cd9f4a7d5f65bd7f9d6d00023796fee090745099",
-      "tamano_bytes": 93708998,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.7/app-bc232ebe.zip"
+      "archivo": "app-90e7cf28.zip",
+      "id": "app-90e7cf28",
+      "sha256": "90e7cf28055a3ad6a42237304549ff9f7a1af5fe62b719fe8e6d651d86dc80ea",
+      "tamano_bytes": 93798035,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.10.7/app-90e7cf28.zip"
     },
     {
       "archivo": "duckdb_cp311-win_amd64_pyd-54b7e370.zip",
@@ -421,6 +447,6 @@
   ],
   "producto": "ALPEK",
   "solo_instalador": false,
-  "tipo": "fix",
-  "version": "3.9.7"
+  "tipo": "feat",
+  "version": "3.10.7"
 }
