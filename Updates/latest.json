@@ -1,20 +1,20 @@
 {
-  "caduca": "2027-11-19T22:26:19+00:00",
+  "caduca": "2027-11-23T16:09:17+00:00",
   "canal": "estable",
   "clave_id": "alpek-2026-a",
   "esquema": 2,
-  "fecha": "2026-10-15",
+  "fecha": "2026-10-19",
   "indice": {
-    "archivo": "indice-697d98fa.json.gz",
-    "sha256": "693c413ec724d44b7f39893463e7c0dd9254c176cef78ca3573445c03b8eec7d",
-    "tamano_bytes": 466359,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.6/indice-697d98fa.json.gz"
+    "archivo": "indice-ae557915.json.gz",
+    "sha256": "f2a38f75f9e55538a77b84f8cfb99e078e976d9e4b8b2b41f71c756dc5ce3c37",
+    "tamano_bytes": 466404,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.7/indice-ae557915.json.gz"
   },
   "instalador": {
-    "archivo": "ALPEK_Setup_3.9.6.exe",
-    "sha256": "03afc11fe3f46676c72199123edd42cbf27b9429fa9c88655095521b7db8e438",
-    "tamano_bytes": 801743085,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.6/ALPEK_Setup_3.9.6.exe"
+    "archivo": "ALPEK_Setup_3.9.7.exe",
+    "sha256": "d269c3c6a6d27b1c9f1706c8e818de4c2fe61c9289f331e155652765b0a12cc1",
+    "tamano_bytes": 801744740,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.7/ALPEK_Setup_3.9.7.exe"
   },
   "novedades": {
     "1.0.1": {
@@ -269,15 +269,35 @@
         "Novo «Exportar diagnóstico» em Configurações > Sobre: um ZIP para o Supervisor de Dados Mestres ou a TI, sem dados do SAP.",
         "Inclui a correção do botão «Baixar» em Configurações > Atualizações (3.8.6)."
       ]
+    },
+    "3.9.7": {
+      "en": [
+        "No material with a «sure» or «to review» pair goes missing any more: in groups of more than 20 materials, the ones that got disconnected when the group was split are no longer lost.",
+        "A «to review» material whose pair was already in a sure group now shows up in that group, marked «in doubt» (it is not consolidated on its own).",
+        "ECC versus S/4HANA: besides the closest candidate, the others are listed («Other candidates in S/4HANA») and the Excel brings them as «Other candidate».",
+        "Criteria profiles: applying a profile no longer leaves a warning in the log."
+      ],
+      "es": [
+        "Ningún material con un par «seguro» o «por revisar» se queda sin aparecer: en grupos de más de 20 materiales ya no se pierden los que se desconectaban al partir el grupo.",
+        "Un material «por revisar» cuyo par ya estaba en un grupo seguro ahora aparece en ese grupo, marcado «en duda» (no se consolida solo).",
+        "ECC contra S/4HANA: además del candidato más parecido se listan los demás («Otros candidatos en S/4HANA») y el Excel los trae como «Otro candidato».",
+        "Perfiles de criterios: al aplicar un perfil ya no queda una advertencia en el registro."
+      ],
+      "pt": [
+        "Nenhum material com um par «seguro» ou «para revisar» deixa de aparecer: em grupos com mais de 20 materiais não se perdem mais os que se desconectavam ao dividir o grupo.",
+        "Um material «para revisar» cujo par já estava em um grupo seguro agora aparece nesse grupo, marcado «em dúvida» (não é consolidado sozinho).",
+        "ECC contra S/4HANA: além do candidato mais parecido, os demais são listados («Outros candidatos no S/4HANA») e o Excel os traz como «Outro candidato».",
+        "Perfis de critérios: ao aplicar um perfil não fica mais um aviso no registro."
+      ]
     }
   },
   "paquetes": [
     {
-      "archivo": "app-cd9f7fd2.zip",
-      "id": "app-cd9f7fd2",
-      "sha256": "cd9f7fd26c747354b03fc8e2904d7dc916bd83e6ef99e901ac9a2879e7845ba1",
-      "tamano_bytes": 93701245,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.6/app-cd9f7fd2.zip"
+      "archivo": "app-bc232ebe.zip",
+      "id": "app-bc232ebe",
+      "sha256": "bc232ebe17b5ed7942eb7500cd9f4a7d5f65bd7f9d6d00023796fee090745099",
+      "tamano_bytes": 93708998,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.9.7/app-bc232ebe.zip"
     },
     {
       "archivo": "duckdb_cp311-win_amd64_pyd-54b7e370.zip",
@@ -401,6 +421,6 @@
   ],
   "producto": "ALPEK",
   "solo_instalador": false,
-  "tipo": "feat",
-  "version": "3.9.6"
+  "tipo": "fix",
+  "version": "3.9.7"
 }
