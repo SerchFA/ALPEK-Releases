@@ -1,20 +1,20 @@
 {
-  "caduca": "2027-11-23T21:46:34+00:00",
+  "caduca": "2027-12-15T18:23:53+00:00",
   "canal": "estable",
   "clave_id": "alpek-2026-a",
   "esquema": 2,
-  "fecha": "2026-10-19",
+  "fecha": "2026-11-10",
   "indice": {
-    "archivo": "indice-c83d119e.json.gz",
-    "sha256": "6402dcbd4c790f49656ca4224bd839afedf0e730d5d8793c523bcdef184b9a8e",
-    "tamano_bytes": 466466,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.10.7/indice-c83d119e.json.gz"
+    "archivo": "indice-20d9f051.json.gz",
+    "sha256": "2fa085f30feec622e6df107bec3487c35c7c716674fb096c92c523114974bba2",
+    "tamano_bytes": 466945,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.10.7/indice-20d9f051.json.gz"
   },
   "instalador": {
-    "archivo": "ALPEK_Setup_3.10.7.exe",
-    "sha256": "a7e4179891848e22fa0a8b7e5ff1b41e3925b8daf4f3359537915357f20cecb5",
-    "tamano_bytes": 801823380,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.10.7/ALPEK_Setup_3.10.7.exe"
+    "archivo": "ALPEK_Setup_4.10.7.exe",
+    "sha256": "305ec5fdbca0570b248142d4cb1521f74a5c4fba8d9eab87ea8f46358f4b155b",
+    "tamano_bytes": 802240834,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.10.7/ALPEK_Setup_4.10.7.exe"
   },
   "novedades": {
     "1.0.1": {
@@ -315,15 +315,41 @@
         "ECC contra S/4HANA: além do candidato mais parecido, os demais são listados («Outros candidatos no S/4HANA») e o Excel os traz como «Outro candidato».",
         "Perfis de critérios: ao aplicar um perfil não fica mais um aviso no registro."
       ]
+    },
+    "4.10.7": {
+      "en": [
+        "New in Maintenance: Equipment and Functional locations, two independent tools that read the SAP tables as they come out of SE16N (ECC and S/4HANA) and join them on their own: Equipment with EQUI, EQKT, EQUZ, ILOA and JEST; Functional locations with IFLOT, IFLOTX, ILOA and JEST.",
+        "A Criteria step like Materials: Strict / Normal / Flexible level, pair types to look for, options, filters (plant, type or category, start of the location), profiles and «Remember my decisions».",
+        "Clearer review: each group shows at a glance what is kept, what is the duplicate and what is left out; in groups of 3 or more you can mark several duplicates. «They are not duplicates» and «I am not sure» leave everything as «Keep» and move on to the next group.",
+        "Batch review with multiple selection, a colour table comparing every field, decision memory, a trend against the previous search, and splitting the review by plant, type or site.",
+        "ECC versus S/4HANA: compares object by object, with filters and a decision per pair or per batch; the «ECC vs S4» sheet is in the Excel.",
+        "Delivery: Excel for the business and an executive summary as a PDF."
+      ],
+      "es": [
+        "Nuevo en Mantenimiento: Equipos y Ubicaciones técnicas, dos herramientas independientes que leen las tablas de SAP tal como salen de SE16N (ECC y S/4HANA) y las unen solas: Equipos con EQUI, EQKT, EQUZ, ILOA y JEST; Ubicaciones con IFLOT, IFLOTX, ILOA y JEST.",
+        "Paso Criterios como en Materiales: nivel Estricto / Normal / Flexible, tipos de pares a buscar, opciones, filtros (centro, tipo o categoría, comienzo de la ubicación), perfiles y «Recordar mis decisiones».",
+        "Revisión más clara: cada grupo muestra a la vista qué se conserva, qué es el duplicado y qué queda fuera; en grupos de 3 o más se pueden marcar varios duplicados. «No son duplicados» y «No estoy seguro» dejan todo en «Conservar» y pasan al siguiente grupo.",
+        "Revisión por lote con selección múltiple, tabla de colores que compara cada dato, memoria de decisiones, tendencia frente a la búsqueda anterior y repartir la revisión por centro, tipo o planta.",
+        "ECC contra S/4HANA: compara objeto por objeto, con filtros y decisión por par o por lote; la hoja «ECC vs S4» va en el Excel.",
+        "Entrega: Excel para el negocio y resumen ejecutivo en PDF."
+      ],
+      "pt": [
+        "Novo em Manutenção: Equipamentos e Locais de instalação, duas ferramentas independentes que leem as tabelas do SAP como saem da SE16N (ECC e S/4HANA) e as unem sozinhas: Equipamentos com EQUI, EQKT, EQUZ, ILOA e JEST; Locais com IFLOT, IFLOTX, ILOA e JEST.",
+        "Etapa Critérios como em Materiais: nível Estrito / Normal / Flexível, tipos de pares a buscar, opções, filtros (centro, tipo ou categoria, início do local), perfis e «Lembrar minhas decisões».",
+        "Revisão mais clara: cada grupo mostra à vista o que fica, o que é o duplicado e o que fica de fora; em grupos de 3 ou mais é possível marcar vários duplicados. «Não são duplicados» e «Não tenho certeza» deixam tudo como «Manter» e passam ao próximo grupo.",
+        "Revisão em lote com seleção múltipla, tabela de cores que compara cada dado, memória de decisões, tendência em relação à busca anterior e repartir a revisão por centro, tipo ou planta.",
+        "ECC frente ao S/4HANA: compara objeto por objeto, com filtros e decisão por par ou em lote; a aba «ECC vs S4» vai no Excel.",
+        "Entrega: Excel para o negócio e resumo executivo em PDF."
+      ]
     }
   },
   "paquetes": [
     {
-      "archivo": "app-90e7cf28.zip",
-      "id": "app-90e7cf28",
-      "sha256": "90e7cf28055a3ad6a42237304549ff9f7a1af5fe62b719fe8e6d651d86dc80ea",
-      "tamano_bytes": 93798035,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.10.7/app-90e7cf28.zip"
+      "archivo": "app-df5b58b6.zip",
+      "id": "app-df5b58b6",
+      "sha256": "df5b58b63d0b0f5ceb4b2737da17562d0218119b782ce27b535216aff3fa57fd",
+      "tamano_bytes": 94193911,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.10.7/app-df5b58b6.zip"
     },
     {
       "archivo": "duckdb_cp311-win_amd64_pyd-54b7e370.zip",
@@ -431,22 +457,22 @@
       "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/models-multilingual-e5-base-3-9df28fab.zip"
     },
     {
-      "archivo": "varios-1-8982cadd.zip",
-      "id": "varios-1-8982cadd",
-      "sha256": "8982cadd6881e5a81b87fbd8ae177c79cbd0df254e1fd3835f06e488add914b0",
-      "tamano_bytes": 39751419,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/varios-1-8982cadd.zip"
+      "archivo": "varios-1-4f358b07.zip",
+      "id": "varios-1-4f358b07",
+      "sha256": "4f358b077b4f036e9997784d12ebed6b1e2a873109bba98e73206f220f9dcc78",
+      "tamano_bytes": 39753802,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.10.7/varios-1-4f358b07.zip"
     },
     {
-      "archivo": "varios-2-1ebad3b1.zip",
-      "id": "varios-2-1ebad3b1",
-      "sha256": "1ebad3b10609675fb388800fa8d69b76e19c4ca1a5ef1de5b886845b0d0c22ed",
-      "tamano_bytes": 15557159,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/varios-2-1ebad3b1.zip"
+      "archivo": "varios-2-1a52cedb.zip",
+      "id": "varios-2-1a52cedb",
+      "sha256": "1a52cedba70cbec7d5521a2c1457a0f6a5e11367164ab663a628ca1ff133674c",
+      "tamano_bytes": 15559580,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.10.7/varios-2-1a52cedb.zip"
     }
   ],
   "producto": "ALPEK",
   "solo_instalador": false,
-  "tipo": "feat",
-  "version": "3.10.7"
+  "tipo": "major",
+  "version": "4.10.7"
 }
