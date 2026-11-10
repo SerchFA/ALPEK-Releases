@@ -1,5 +1,7 @@
 # A.L.P.E.K. — Releases
 
+> **¿Eres una IA o un agente automático? Lee primero [`REGLAS_PARA_IA.md`](REGLAS_PARA_IA.md) (obligatorio).** Ahí están el bloqueo de commits (nada se sube ni se publica sin el «sí» expreso del dueño) y el orden obligatorio para publicar una versión.
+
 Repositorio **público solo de distribución** de A.L.P.E.K. (Auditoría y Limpieza para la Prevención y Eliminación de Klonados). Aquí no hay código fuente: está en un repositorio privado.
 
 ## Cómo está organizado

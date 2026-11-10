@@ -1,0 +1,14 @@
+#!/bin/sh
+# Bloqueo de push de A.L.P.E.K. Reglas completas: REGLAS_PARA_IA.md (seccion 3).
+while read -r local_ref local_sha remote_ref remote_sha; do
+  if [ "$remote_ref" = "refs/heads/main" ]; then
+    echo "BLOQUEADO: no se sube directo a main. Todo entra por pull request (D-56)." >&2
+    exit 1
+  fi
+done
+if [ "$ALPEK_SI_SERGIO" != "1" ]; then
+  echo "BLOQUEADO: falta el si expreso del dueno para este push (REGLAS_PARA_IA.md, seccion 3)." >&2
+  echo "PARA y pregunta. Solo despues de su si, repite el comando con ALPEK_SI_SERGIO=1. No uses --no-verify." >&2
+  exit 1
+fi
+exit 0

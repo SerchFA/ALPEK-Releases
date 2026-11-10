@@ -1,3 +1,6 @@
 # Los manifiestos y sus firmas se firman sobre bytes exactos: nunca convertir finales de linea
 Updates/* -text
 "Old Versions/*" -text
+
+# Los hooks son scripts de shell: deben quedar con finales de linea LF
+.githooks/* text eol=lf
