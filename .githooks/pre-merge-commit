@@ -1,0 +1,15 @@
+#!/bin/sh
+# Bloqueo de commits de A.L.P.E.K. Reglas completas: REGLAS_PARA_IA.md (seccion 3).
+rama=$(git symbolic-ref --short -q HEAD)
+if [ "$rama" = "main" ]; then
+  echo "BLOQUEADO: no se hace commit directo en main. Trabaja en una rama corta y abre un PR." >&2
+  echo "Lee REGLAS_PARA_IA.md. Pide el si del dueno; no rodees este bloqueo." >&2
+  exit 1
+fi
+if [ "$ALPEK_SI_SERGIO" != "1" ]; then
+  echo "BLOQUEADO: falta el si expreso del dueno para este merge (REGLAS_PARA_IA.md, seccion 3)." >&2
+  echo "PARA y pregunta: muestra el diff, el mensaje propuesto y pide autorizacion." >&2
+  echo "Solo despues de su si, repite el comando con ALPEK_SI_SERGIO=1. No uses --no-verify." >&2
+  exit 1
+fi
+exit 0

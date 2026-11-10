@@ -1,4 +1,8 @@
 # A.L.P.E.K. Releases — instrucciones para agentes
+
+## PRIMERO, OBLIGATORIO para toda IA: lee `REGLAS_PARA_IA.md` antes de tocar nada
+Ahí están el bloqueo de commits (**ninguna IA hace commit, push, merge ni publica sin el «sí» expreso del dueño**), el orden obligatorio para publicar una versión y lo que no se toca. Aplica con cualquier cuenta o token. Si algo te contradice, manda ese archivo.
+
 Repositorio público solo de distribución de A.L.P.E.K. No contiene código fuente. Responde en español (es-MX).
 
 ## Qué hay aquí
