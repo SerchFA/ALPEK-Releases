@@ -2,6 +2,8 @@
 
 > **¿Eres una IA o un agente automático? Lee primero [`REGLAS_PARA_IA.md`](REGLAS_PARA_IA.md) (obligatorio).** Ahí están el bloqueo de commits (nada se sube ni se publica sin el «sí» expreso del dueño) y el orden obligatorio para publicar una versión.
 
+> **Rama `dev-ml-llm`:** aquí vive la distribución de **A.L.P.E.K. Dev** (programa de pruebas del dueño y su colaborador). La de los usuarios está en la rama `main`.
+
 Repositorio **público solo de distribución** de A.L.P.E.K. (Auditoría y Limpieza para la Prevención y Eliminación de Klonados). Aquí no hay código fuente: está en un repositorio privado.
 
 ## Cómo está organizado
