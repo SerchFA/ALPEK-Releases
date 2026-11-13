@@ -1,6 +1,6 @@
-# Modelo de ML de A.L.P.E.K. Dev: pruebas y evolución
+# Modelo de ML de A.L.P.E.K. Dev Regresion: pruebas y evolución
 
-Rama `dev-ml-llm`. Resumen de lo que se corrió para entrenar y medir el modelo (regresión logística sobre las señales de las reglas). **Solo cifras agregadas y coeficientes**: ningún registro, descripción ni número de SAP.
+Rama `dev-ml-llm`. Comparativo con las reglas de `main` y con el modelo de boosting de la rama hermana: [`comparativo-main-regresion-boosting.md`](comparativo-main-regresion-boosting.md). Resumen de lo que se corrió para entrenar y medir el modelo (regresión logística sobre las señales de las reglas). **Solo cifras agregadas y coeficientes**: ningún registro, descripción ni número de SAP.
 El detalle visual (gráficas de líneas de cada corrida) está en [`reporte_evolucion_modelo.html`](reporte_evolucion_modelo.html). Cómo está construido: `docs/dev-ml-llm.md` del repositorio privado.
 
 ## Límite que no se puede olvidar
