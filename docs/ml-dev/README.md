@@ -5,13 +5,15 @@ Rama `dev-ml-boosting`. Esta copia usa **gradient boosting** (árboles pequeños
 - **Comparativo completo (reglas de `main` contra regresión contra boosting):** [`comparativo-main-regresion-boosting.md`](comparativo-main-regresion-boosting.md).
 - Cómo está construido el modelo: `docs/dev-ml-boosting.md` («Modelo de ML y pruebas con una IA»).
 
+**Corrida comparativa ronda por ronda (2026-11-13):** reglas, regresión y boosting sobre las mismas decisiones de Claude Haiku 5.5 (esfuerzo muy alto) en los mismos escenarios de la tanda 2; reporte con las líneas de cada ronda en [`corrida-comparativa/reporte_algoritmo_regresion_boosting.html`](corrida-comparativa/reporte_algoritmo_regresion_boosting.html) y resumen en el comparativo.
+
 ## Límite que no se puede olvidar
 
 Las etiquetas **no son del negocio**: en la fase 1 las puso una IA (Claude Haiku 5.5) y en las fases 2, 3 y la tanda 2 la «verdad» de un generador sintético o, otra vez, Haiku. Todo lo que se mide es acuerdo con esas etiquetas. Hasta que personas del negocio decidan en Resultados (el almacén las guarda con `origen` = `persona`), no se sabe si el modelo mejora el trabajo real.
 
 ## Qué se entrenó (mismos parámetros que la regresión)
 
-Se reutilizaron **los mismos conjuntos de pares, la misma partición entrenamiento/auditoría y las mismas métricas** que en `dev-ml-llm`; solo cambió el modelo. Las corridas de la IA no se repitieron: se reentrenó sobre lo ya decidido.
+Se reutilizaron **los mismos conjuntos de pares, la misma partición entrenamiento/auditoría y las mismas métricas** que en `dev-ml-llm`; solo cambió el modelo. Los modelos entregados en `config/ml/` se reentrenaron sobre lo ya decidido en la tanda 2; **después, en la corrida comparativa, Haiku decidió de nuevo** los mismos escenarios con el boosting reentrenándose en cada ronda (ver más abajo y el comparativo).
 
 | Conjunto | Origen de las etiquetas | Qué es |
 |---|---|---|

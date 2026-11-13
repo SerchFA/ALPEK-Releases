@@ -117,3 +117,26 @@ python -m mldev.ml_verdad antes <base-s3> <destino>\tanda2\s3 haiku_v1=<destino>
 ```
 
 Los resultados del boosting (resúmenes y comparativos) están en [`modelos/boosting/`](modelos/boosting) de la rama `dev-ml-boosting`; los de la regresión, en `docs/ml-dev/modelos/` de la rama `dev-ml-llm`.
+
+
+## Corrida comparativa ronda por ronda (2026-11-13)
+
+Se repitió el protocolo de la tanda 2 con el modelo de boosting «alimentándose» de las decisiones de una IA: **los mismos escenarios** (datos sintéticos de unos 55 000 registros por corrida con alto índice de duplicados, generados con la misma semilla y los mismos generadores revisados por Claude Sonnet 5.5; coinciden los registros y los grupos de la tanda 2), **Claude Haiku 5.5 en esfuerzo muy alto decidiendo de nuevo** en Resultados (190 grupos por corrida en 4 rondas, sin ver puntajes), y el modelo reentrenándose en cada ronda. Después se repitieron **exactamente esas decisiones** con el modelo de regresión (`reaplicar` en la rama `dev-ml-llm`), de modo que reglas, regresión y boosting salen de las mismas etiquetas, de los mismos pares de entrenamiento y de la misma auditoría en cada ronda.
+
+Reporte con las líneas de cada ronda: [`corrida-comparativa/reporte_algoritmo_regresion_boosting.html`](corrida-comparativa/reporte_algoritmo_regresion_boosting.html) (cifras en `corrida-comparativa/evolucion_*.json`). Se pudieron medir 9 de las 14 corridas; en las otras 5 casi todo lo que decidió la IA fue «duplicado» y la auditoría no trae las dos clases.
+
+| Corrida | AP reglas · regresión · boosting | Revisión al 90 % reglas · regresión · boosting |
+|---|---|---|
+| Clientes Estricta | 0.990 · 1.000 · sin modelo | 92 % · 85 % · — |
+| Clientes Normal | 1.000 · 1.000 · 1.000 | 73 % · 73 % · 73 % |
+| Clientes Flexible | 0.999 · 0.994 · 0.922 | 27 % · 28 % · 28 % |
+| Proveedores Normal | 1.000 · 1.000 · 1.000 | 56 % · 56 % · 56 % |
+| Proveedores Flexible | 0.974 · 0.998 · 1.000 | 68 % · 57 % · 57 % |
+| Materiales Flexible | 1.000 · 1.000 · 1.000 | 59 % · 59 % · 59 % |
+| Equipos Estricta, Normal y Flexible | 1.000 · 1.000 · 1.000 | 88 %, 75 % y 78 % (los tres iguales) |
+
+- **Coinciden en 6 de las 9 corridas medibles**: las reglas ya ordenan casi perfecto estos datos.
+- **Donde difieren, la regresión gana 2 de 3 veces** (Clientes Estricta, donde el boosting ni entrena por tener solo 2 no duplicados, y Clientes Flexible, donde el boosting cae a AP 0.922); el boosting gana una (Proveedores Flexible, por 0.002 de AP).
+- **Modelo con todo lo aprendido de cada herramienta:** Clientes y Proveedores, los dos modelos con AP 1.000 contra 0.994 y 0.995 de las reglas; Materiales y Equipos, los tres iguales; Ubicaciones técnicas, la regresión entrena con 1 solo no duplicado entre 216 pares y el boosting no entrena.
+- **La réplica es fiel:** los pares de entrenamiento y auditoría del modelo conjunto coinciden con los de la tanda 2 en Clientes (431 / 187) y Equipos (408 / 119) y casi en Materiales (675 contra 666) y Proveedores (610 contra 622): Haiku decidió de nuevo y sus decisiones no son idénticas.
+- **Conclusión:** con este volumen y estos escenarios no hay evidencia de que el boosting supere a la regresión ni a las reglas. Las etiquetas siguen siendo de una IA sobre datos sintéticos.

@@ -1,0 +1,593 @@
+{
+ "generado": "2026-11-13 16:32:18",
+ "ia": "haiku-5.5",
+ "evolucion": [
+  {
+   "sesion": "bp_Estricta",
+   "herramienta": "bp",
+   "nivel": "Estricta",
+   "ronda": 1,
+   "fecha": "2026-11-13 15:19:09",
+   "grupos_decididos": 70,
+   "decisiones": {
+    "DUPLICADOS": 52,
+    "NO_DUPLICADOS": 1,
+    "DUDOSO": 17
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 35,
+   "positivos_entrenamiento": 34,
+   "pares_auditoria": 60,
+   "positivos_auditoria": 60,
+   "reglas": {
+    "n": 60,
+    "positivos": 60,
+    "auc": null,
+    "ap": null,
+    "rev90": null
+   },
+   "modelo": null,
+   "pesos": null,
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 37
+  },
+  {
+   "sesion": "bp_Estricta",
+   "herramienta": "bp",
+   "nivel": "Estricta",
+   "ronda": 2,
+   "fecha": "2026-11-13 15:19:51",
+   "grupos_decididos": 110,
+   "decisiones": {
+    "DUPLICADOS": 81,
+    "NO_DUPLICADOS": 2,
+    "DUDOSO": 27
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 99,
+   "positivos_entrenamiento": 97,
+   "pares_auditoria": 60,
+   "positivos_auditoria": 60,
+   "reglas": {
+    "n": 60,
+    "positivos": 60,
+    "auc": null,
+    "ap": null,
+    "rev90": null
+   },
+   "modelo": null,
+   "pesos": null,
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 37
+  },
+  {
+   "sesion": "bp_Estricta",
+   "herramienta": "bp",
+   "nivel": "Estricta",
+   "ronda": 3,
+   "fecha": "2026-11-13 15:20:37",
+   "grupos_decididos": 150,
+   "decisiones": {
+    "DUPLICADOS": 108,
+    "NO_DUPLICADOS": 2,
+    "DUDOSO": 40
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 144,
+   "positivos_entrenamiento": 142,
+   "pares_auditoria": 60,
+   "positivos_auditoria": 60,
+   "reglas": {
+    "n": 60,
+    "positivos": 60,
+    "auc": null,
+    "ap": null,
+    "rev90": null
+   },
+   "modelo": null,
+   "pesos": null,
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 37
+  },
+  {
+   "sesion": "bp_Estricta",
+   "herramienta": "bp",
+   "nivel": "Estricta",
+   "ronda": 4,
+   "fecha": "2026-11-13 15:21:17",
+   "grupos_decididos": 190,
+   "decisiones": {
+    "DUPLICADOS": 138,
+    "NO_DUPLICADOS": 2,
+    "DUDOSO": 50
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 201,
+   "positivos_entrenamiento": 199,
+   "pares_auditoria": 60,
+   "positivos_auditoria": 60,
+   "reglas": {
+    "n": 60,
+    "positivos": 60,
+    "auc": null,
+    "ap": null,
+    "rev90": null
+   },
+   "modelo": null,
+   "pesos": null,
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 37
+  },
+  {
+   "sesion": "bp_Flexible",
+   "herramienta": "bp",
+   "nivel": "Flexible",
+   "ronda": 1,
+   "fecha": "2026-11-13 16:27:39",
+   "grupos_decididos": 70,
+   "decisiones": {
+    "DUPLICADOS": 30,
+    "NO_DUPLICADOS": 12,
+    "DUDOSO": 28
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 395,
+   "positivos_entrenamiento": 339,
+   "pares_auditoria": 47,
+   "positivos_auditoria": 30,
+   "reglas": {
+    "n": 47,
+    "positivos": 30,
+    "auc": 0.9431372549019608,
+    "ap": 0.9739493565220309,
+    "rev90": 0.6808510638297872
+   },
+   "modelo": {
+    "n": 47,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.574468085106383
+   },
+   "pesos": {
+    "sim_calle": 0.994,
+    "puntaje": 0.0034,
+    "cos_emb": 0.0008,
+    "cos_tfidf": 0.0008,
+    "sim_nombre": 0.0007,
+    "id_distinto": 0.0002,
+    "banda_alta": 0.0
+   },
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 24
+  },
+  {
+   "sesion": "bp_Flexible",
+   "herramienta": "bp",
+   "nivel": "Flexible",
+   "ronda": 2,
+   "fecha": "2026-11-13 16:28:47",
+   "grupos_decididos": 110,
+   "decisiones": {
+    "DUPLICADOS": 45,
+    "NO_DUPLICADOS": 16,
+    "DUDOSO": 49
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 426,
+   "positivos_entrenamiento": 364,
+   "pares_auditoria": 47,
+   "positivos_auditoria": 30,
+   "reglas": {
+    "n": 47,
+    "positivos": 30,
+    "auc": 0.9431372549019608,
+    "ap": 0.9739493565220309,
+    "rev90": 0.6808510638297872
+   },
+   "modelo": {
+    "n": 47,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.574468085106383
+   },
+   "pesos": {
+    "sim_calle": 0.9959,
+    "puntaje": 0.0017,
+    "cos_tfidf": 0.001,
+    "sim_nombre": 0.0009,
+    "cos_emb": 0.0004,
+    "id_distinto": 0.0001,
+    "banda_alta": 0.0
+   },
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 24
+  },
+  {
+   "sesion": "bp_Flexible",
+   "herramienta": "bp",
+   "nivel": "Flexible",
+   "ronda": 3,
+   "fecha": "2026-11-13 16:29:50",
+   "grupos_decididos": 150,
+   "decisiones": {
+    "DUPLICADOS": 60,
+    "NO_DUPLICADOS": 19,
+    "DUDOSO": 71
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 453,
+   "positivos_entrenamiento": 388,
+   "pares_auditoria": 47,
+   "positivos_auditoria": 30,
+   "reglas": {
+    "n": 47,
+    "positivos": 30,
+    "auc": 0.9431372549019608,
+    "ap": 0.9739493565220309,
+    "rev90": 0.6808510638297872
+   },
+   "modelo": {
+    "n": 47,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.574468085106383
+   },
+   "pesos": {
+    "sim_calle": 0.9891,
+    "sim_nombre": 0.0036,
+    "puntaje": 0.0033,
+    "cos_emb": 0.003,
+    "cos_tfidf": 0.0007,
+    "id_distinto": 0.0003,
+    "banda_alta": 0.0
+   },
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 24
+  },
+  {
+   "sesion": "bp_Flexible",
+   "herramienta": "bp",
+   "nivel": "Flexible",
+   "ronda": 4,
+   "fecha": "2026-11-13 16:30:59",
+   "grupos_decididos": 190,
+   "decisiones": {
+    "DUPLICADOS": 77,
+    "NO_DUPLICADOS": 23,
+    "DUDOSO": 90
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 604,
+   "positivos_entrenamiento": 423,
+   "pares_auditoria": 47,
+   "positivos_auditoria": 30,
+   "reglas": {
+    "n": 47,
+    "positivos": 30,
+    "auc": 0.9431372549019608,
+    "ap": 0.9739493565220309,
+    "rev90": 0.6808510638297872
+   },
+   "modelo": {
+    "n": 47,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.574468085106383
+   },
+   "pesos": {
+    "sim_calle": 0.9874,
+    "puntaje": 0.0053,
+    "cos_emb": 0.0028,
+    "sim_nombre": 0.0024,
+    "cos_tfidf": 0.0019,
+    "id_distinto": 0.0002,
+    "banda_alta": 0.0
+   },
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 24
+  },
+  {
+   "sesion": "bp_Normal",
+   "herramienta": "bp",
+   "nivel": "Normal",
+   "ronda": 1,
+   "fecha": "2026-11-13 15:28:28",
+   "grupos_decididos": 70,
+   "decisiones": {
+    "DUPLICADOS": 30,
+    "NO_DUPLICADOS": 3,
+    "DUDOSO": 37
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 225,
+   "positivos_entrenamiento": 217,
+   "pares_auditoria": 48,
+   "positivos_auditoria": 30,
+   "reglas": {
+    "n": 48,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 0.9999999999999999,
+    "rev90": 0.5625
+   },
+   "modelo": {
+    "n": 48,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.5625
+   },
+   "pesos": {
+    "sim_calle": 0.9217,
+    "sim_nombre": 0.0586,
+    "puntaje": 0.0133,
+    "cos_tfidf": 0.0053,
+    "cos_emb": 0.0008,
+    "id_distinto": 0.0002,
+    "banda_alta": 0.0
+   },
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 24
+  },
+  {
+   "sesion": "bp_Normal",
+   "herramienta": "bp",
+   "nivel": "Normal",
+   "ronda": 2,
+   "fecha": "2026-11-13 15:29:18",
+   "grupos_decididos": 110,
+   "decisiones": {
+    "DUPLICADOS": 44,
+    "NO_DUPLICADOS": 4,
+    "DUDOSO": 62
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 262,
+   "positivos_entrenamiento": 238,
+   "pares_auditoria": 48,
+   "positivos_auditoria": 30,
+   "reglas": {
+    "n": 48,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 0.9999999999999999,
+    "rev90": 0.5625
+   },
+   "modelo": {
+    "n": 48,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.5625
+   },
+   "pesos": {
+    "sim_calle": 0.7238,
+    "puntaje": 0.2574,
+    "sim_nombre": 0.0131,
+    "cos_tfidf": 0.0034,
+    "cos_emb": 0.0023,
+    "banda_alta": 0.0,
+    "id_distinto": 0.0
+   },
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 24
+  },
+  {
+   "sesion": "bp_Normal",
+   "herramienta": "bp",
+   "nivel": "Normal",
+   "ronda": 3,
+   "fecha": "2026-11-13 15:30:30",
+   "grupos_decididos": 150,
+   "decisiones": {
+    "DUPLICADOS": 61,
+    "NO_DUPLICADOS": 9,
+    "DUDOSO": 80
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 330,
+   "positivos_entrenamiento": 272,
+   "pares_auditoria": 48,
+   "positivos_auditoria": 30,
+   "reglas": {
+    "n": 48,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 0.9999999999999999,
+    "rev90": 0.5625
+   },
+   "modelo": {
+    "n": 48,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.5625
+   },
+   "pesos": {
+    "sim_calle": 0.9647,
+    "puntaje": 0.0259,
+    "sim_nombre": 0.0052,
+    "cos_tfidf": 0.0026,
+    "cos_emb": 0.0016,
+    "banda_alta": 0.0,
+    "id_distinto": 0.0
+   },
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 24
+  },
+  {
+   "sesion": "bp_Normal",
+   "herramienta": "bp",
+   "nivel": "Normal",
+   "ronda": 4,
+   "fecha": "2026-11-13 15:31:28",
+   "grupos_decididos": 190,
+   "decisiones": {
+    "DUPLICADOS": 78,
+    "NO_DUPLICADOS": 10,
+    "DUDOSO": 102
+   },
+   "faltantes": 0,
+   "pares_entrenamiento": 363,
+   "positivos_entrenamiento": 304,
+   "pares_auditoria": 48,
+   "positivos_auditoria": 30,
+   "reglas": {
+    "n": 48,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 0.9999999999999999,
+    "rev90": 0.5625
+   },
+   "modelo": {
+    "n": 48,
+    "positivos": 30,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.5625
+   },
+   "pesos": {
+    "sim_calle": 0.8435,
+    "puntaje": 0.147,
+    "sim_nombre": 0.004,
+    "cos_tfidf": 0.0032,
+    "cos_emb": 0.0023,
+    "banda_alta": 0.0,
+    "id_distinto": 0.0
+   },
+   "alta_que_no_es_duplicado": 0.0,
+   "pares_alta_auditoria": 24
+  }
+ ],
+ "sesiones": [
+  {
+   "sesion": "bp_Estricta",
+   "herramienta": "bp",
+   "nivel": "Estricta",
+   "datos": "sintetico",
+   "registros": 54804,
+   "origen": "haiku-5.5",
+   "grupos": 11244,
+   "grupos_alta": 6124,
+   "rondas": 4,
+   "grupos_decididos": 190,
+   "segundos_busqueda": 744.3
+  },
+  {
+   "sesion": "bp_Flexible",
+   "herramienta": "bp",
+   "nivel": "Flexible",
+   "datos": "sintetico",
+   "registros": 54804,
+   "origen": "haiku-5.5",
+   "grupos": 12426,
+   "grupos_alta": 4655,
+   "rondas": 4,
+   "grupos_decididos": 190,
+   "segundos_busqueda": 2134.8
+  },
+  {
+   "sesion": "bp_Normal",
+   "herramienta": "bp",
+   "nivel": "Normal",
+   "datos": "sintetico",
+   "registros": 54804,
+   "origen": "haiku-5.5",
+   "grupos": 12297,
+   "grupos_alta": 4731,
+   "rondas": 4,
+   "grupos_decididos": 190,
+   "segundos_busqueda": 606.8
+  }
+ ],
+ "conjunto": {
+  "bp": {
+   "pares_entrenamiento": 610,
+   "pares_auditoria": 155,
+   "reglas": {
+    "n": 155,
+    "positivos": 120,
+    "auc": 0.9826190476190477,
+    "ap": 0.9951617283818113,
+    "rev90": 0.7032258064516129
+   },
+   "modelo": {
+    "n": 155,
+    "positivos": 120,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.6967741935483871
+   },
+   "pesos": {
+    "sim_calle": 0.9874,
+    "sim_nombre": 0.0045,
+    "puntaje": 0.004,
+    "cos_emb": 0.0029,
+    "cos_tfidf": 0.001,
+    "id_distinto": 0.0003,
+    "banda_alta": 0.0
+   },
+   "por_sesion": {
+    "bp_Estricta": {
+     "reglas": {
+      "n": 60,
+      "positivos": 60,
+      "auc": null,
+      "ap": null,
+      "rev90": null
+     },
+     "modelo": {
+      "n": 60,
+      "positivos": 60,
+      "auc": null,
+      "ap": null,
+      "rev90": null
+     }
+    },
+    "bp_Flexible": {
+     "reglas": {
+      "n": 47,
+      "positivos": 30,
+      "auc": 0.9431372549019608,
+      "ap": 0.9739493565220309,
+      "rev90": 0.6808510638297872
+     },
+     "modelo": {
+      "n": 47,
+      "positivos": 30,
+      "auc": 1.0,
+      "ap": 1.0,
+      "rev90": 0.574468085106383
+     }
+    },
+    "bp_Normal": {
+     "reglas": {
+      "n": 48,
+      "positivos": 30,
+      "auc": 1.0,
+      "ap": 0.9999999999999999,
+      "rev90": 0.5625
+     },
+     "modelo": {
+      "n": 48,
+      "positivos": 30,
+      "auc": 1.0,
+      "ap": 1.0,
+      "rev90": 0.5625
+     }
+    }
+   }
+  }
+ },
+ "concordancia": {
+  "bp": {
+   "pares_con_dos_o_mas_agentes": 5,
+   "acuerdo": 1.0,
+   "kappa": null
+  }
+ }
+}
