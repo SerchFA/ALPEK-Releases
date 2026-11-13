@@ -1,0 +1,104 @@
+{
+ "mat": {
+  "pares_entrenamiento": 666,
+  "positivos_entrenamiento": 609,
+  "pares_auditoria": 186,
+  "positivos_auditoria": 171,
+  "reglas": {
+   "n": 186,
+   "positivos": 171,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.8279569892473119
+  },
+  "modelos": {
+   "haiku_v1": {
+    "n": 186,
+    "positivos": 171,
+    "auc": 0.9711500974658869,
+    "ap": 0.9976242049180892,
+    "rev90": 0.8279569892473119
+   },
+   "sintetico_v1": {
+    "n": 186,
+    "positivos": 171,
+    "auc": 0.9879142300194932,
+    "ap": 0.9989394451136133,
+    "rev90": 0.8279569892473119
+   },
+   "nuevo": {
+    "n": 186,
+    "positivos": 171,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.8279569892473119
+   }
+  }
+ },
+ "eqp": {
+  "pares_entrenamiento": 408,
+  "positivos_entrenamiento": 252,
+  "pares_auditoria": 119,
+  "positivos_auditoria": 104,
+  "reglas": {
+   "n": 119,
+   "positivos": 104,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.7899159663865546
+  },
+  "modelos": {
+   "haiku_v1": {
+    "n": 119,
+    "positivos": 104,
+    "auc": 0.6538461538461539,
+    "ap": 0.9560076638217216,
+    "rev90": 0.9159663865546218
+   },
+   "sintetico_v1": {
+    "n": 119,
+    "positivos": 104,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.7899159663865546
+   },
+   "nuevo": {
+    "n": 119,
+    "positivos": 104,
+    "auc": 1.0,
+    "ap": 1.0,
+    "rev90": 0.7899159663865546
+   }
+  }
+ },
+ "ubt": {
+  "pares_entrenamiento": 216,
+  "positivos_entrenamiento": 215,
+  "pares_auditoria": 60,
+  "positivos_auditoria": 60,
+  "reglas": {
+   "n": 60,
+   "positivos": 60,
+   "auc": null,
+   "ap": null,
+   "rev90": null
+  },
+  "modelos": {
+   "haiku_v1": null,
+   "sintetico_v1": {
+    "n": 60,
+    "positivos": 60,
+    "auc": null,
+    "ap": null,
+    "rev90": null
+   },
+   "nuevo": {
+    "n": 60,
+    "positivos": 60,
+    "auc": null,
+    "ap": null,
+    "rev90": null
+   }
+  }
+ }
+}

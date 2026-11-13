@@ -108,3 +108,25 @@ Cada modelo se entrena con **todo** lo aprendido de su herramienta (los tres niv
 - Decisiones de personas del negocio en Resultados (origen `persona`) y reentrenar con ellas.
 - Un criterio por escrito para los casos que la IA marcó como dudosos (ID fiscal distinto con nombre y dirección iguales; mismo TAG en otra ubicación; equipos idénticos sin serie).
 - Si se integra el modelo a la pantalla: sólo como orden de revisión, con interruptor y sin tocar lo que las reglas dan por seguro.
+
+
+## Tanda 2: alto índice de duplicados, ~55 000 registros por corrida
+
+Datos sintéticos con 51 % a 65 % de los registros en un grupo de duplicados y con negativos difíciles, de unos 55 000 registros por corrida: Clientes (55 037), Proveedores (54 804), Materiales (55 275), Equipos (55 500) y Ubicaciones técnicas (56 115). Código de los generadores revisado por Claude Sonnet 5.5 (esfuerzo alto);
+decisiones de Claude Haiku 5.5 (esfuerzo muy alto), 190 grupos por corrida en 4 rondas, sin ver puntajes. Reporte con las gráficas de líneas: [`reporte_antes_despues.html`](reporte_antes_despues.html). Los modelos nuevos están en [`modelos/tanda2/`](modelos/tanda2).
+
+Orden de las reglas contra el del modelo nuevo, sobre pares de auditoría que ningún modelo vio:
+
+| Conjunto | Pares de entrenamiento / auditoría | AP: reglas → modelo nuevo | AUC: reglas → modelo nuevo | Revisión al 90 %: reglas → modelo nuevo | Modelo anterior (planillas + Haiku), AP / AUC |
+|---|---|---|---|---|---|
+| Materiales | 666 / 186 | 1.000 → **1.000** | 1.000 → **1.000** | 83 % → **83 %** | 0.998 / 0.971 |
+| Equipos | 408 / 119 | 1.000 → **1.000** | 1.000 → **1.000** | 79 % → **79 %** | 0.956 / 0.654 |
+| Ubicaciones técnicas | 216 / 60 | — → **—** | — → **—** | — → **—** | — / — |
+| Clientes | 431 / 187 | 0.994 → **1.000** | 0.993 → **1.000** | 50 % → **50 %** | 0.713 / 0.672 |
+| Proveedores | 622 / 159 | 0.993 → **1.000** | 0.978 → **1.000** | 69 % → **68 %** | 0.941 / 0.816 |
+
+- **Las reglas ya ordenan casi perfecto estos datos**: el modelo nuevo las iguala pero no las supera. Los modelos entrenados antes sí se degradan sobre estos pares (Equipos baja a un AUC de 0.65 y Clientes a un AP de 0.71).
+- **Exactitud de Haiku contra la verdad del generador:** Clientes y Proveedores 99 % a 100 % (antes 65 % a 73 %, con un criterio que chocaba con el generador); Materiales 100 % (contando «ZZ» y «2Z» como el mismo sello, que en la vida real lo son); Ubicaciones 97 % a 99 %; Equipos 64 % en Normal y Flexible (100 % en Estricta): los 68 errores son un solo caso, «mismo TAG con otra descripción», que el generador cuenta como duplicado y el criterio dado exigía la misma descripción.
+- **Ubicaciones técnicas** sigue sin ser entrenable con dos clases (0 y 1 no duplicados en Normal y Flexible); además la cola no muestra las unidades hijas de las áreas copiadas entre plantas.
+- **Clientes y Proveedores:** entre 26 % y 53 % de los grupos quedaron dudosos porque mezclan un par duplicado con empresas de nombre parecido; decidir por par y no por grupo lo resolvería.
+- Las etiquetas siguen siendo de una IA, no del negocio.
