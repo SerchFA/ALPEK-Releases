@@ -3,6 +3,8 @@
 Rama `dev-ml-llm`. Comparativo con las reglas de `main` y con el modelo de boosting de la rama hermana: [`comparativo-main-regresion-boosting.md`](comparativo-main-regresion-boosting.md). Resumen de lo que se corrió para entrenar y medir el modelo (regresión logística sobre las señales de las reglas). **Solo cifras agregadas y coeficientes**: ningún registro, descripción ni número de SAP.
 El detalle visual (gráficas de líneas de cada corrida) está en [`reporte_evolucion_modelo.html`](reporte_evolucion_modelo.html). Cómo está construido: `docs/dev-ml-llm.md` del repositorio privado.
 
+**Corrida comparativa ronda por ronda (2026-11-13):** reglas, regresión y boosting sobre las mismas decisiones de Claude Haiku 5.5 (esfuerzo muy alto) en los mismos escenarios de la tanda 2; reporte con las líneas de cada ronda en [`corrida-comparativa/reporte_algoritmo_regresion_boosting.html`](corrida-comparativa/reporte_algoritmo_regresion_boosting.html) y resumen en el comparativo.
+
 ## Límite que no se puede olvidar
 
 Las etiquetas **no son del negocio**: en la fase 1 las puso una IA (Claude Haiku 5.5) y en las fases 2 y 3 la «verdad» de un generador de datos sintéticos. Todo lo que se mide es acuerdo con esas etiquetas.
