@@ -96,13 +96,13 @@ Las versiones son `X.Y.Z`: **contadores acumulados que no se reinician** (X = ca
 - **Si algo falla o no coincide** (tamaño, huella, verificación): **para.** No improvises, no reintentes con `--force`. Avisa al dueño qué falló y en qué estado quedó (un Release en borrador sin publicar se puede rehacer; uno ya publicado, no).
 - Afirma solo lo verificado; lo supuesto es `Assumption` y lo desconocido `TBD`.
 
-## 8. Esta rama: `dev-ml-llm` (A.L.P.E.K. Dev Regresion)
+## 8. Esta rama: `dev-ml-boosting` (A.L.P.E.K. Dev Boosting)
 
-Esta rama no es la de los usuarios: la usan el dueño y su colaborador para el programa de pruebas **«A.L.P.E.K. Dev Regresion»**, que se instala junto al normal. La rama `main` sigue con las versiones normales y **no se toca desde aquí**.
+Esta rama no es la de los usuarios: la usan el dueño y su colaborador para el programa de pruebas **«A.L.P.E.K. Dev Boosting»**, que se instala junto al normal. La rama `main` sigue con las versiones normales y **no se toca desde aquí**.
 
-- Aquí el programa Dev lee **`Updates/latest-dev.json`** y su firma `latest-dev.json.sig` (canal `dev`). **No se toca** `Updates/latest.json` (es del programa normal, y vive en `main`).
-- Los instaladores Dev se llaman `ALPEK_Dev_Setup_X.Y.Z.exe` y están en Releases con la etiqueta `dev-vX.Y.Z`, siempre como **prerelease y nunca «latest»**. **No toques** los Releases `vX.Y.Z` del programa normal.
-- Los manifiestos Dev anteriores se guardan en `Old Versions/` como `dev-<versión>.json` y `.sig`.
+- Aquí el programa Dev lee **`Updates/latest-dev-boosting.json`** y su firma `latest-dev-boosting.json.sig` (canal `dev-boosting`). **No se toca** `Updates/latest.json` (es del programa normal, y vive en `main`).
+- Los instaladores Dev se llaman `ALPEK_Dev_Boosting_Setup_X.Y.Z.exe` y están en Releases con la etiqueta `dev-boosting-vX.Y.Z`, siempre como **prerelease y nunca «latest»**. **No toques** los Releases `vX.Y.Z` del programa normal.
+- Los manifiestos Dev anteriores se guardan en `Old Versions/` como `dev-boosting-<versión>.json` y `.sig`.
 - El orden de la sección 5 aplica igual: el Release se publica antes de fusionar el PR del manifiesto, y ese PR (a esta rama, no a `main`) lo fusiona el dueño.
 - Nada de secretos, claves de API ni datos de SAP: este repositorio es público.
 

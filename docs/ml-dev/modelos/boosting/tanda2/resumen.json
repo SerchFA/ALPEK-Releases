@@ -1,0 +1,98 @@
+{
+ "mat": {
+  "pares_entrenamiento": 666,
+  "positivos": 609,
+  "pares_auditoria": 186,
+  "reglas": {
+   "n": 186,
+   "positivos": 171,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.8279569892473119
+  },
+  "modelo": {
+   "n": 186,
+   "positivos": 171,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.8279569892473119
+  },
+  "pesos": {
+   "puntaje": 1.0,
+   "banda_alta": 0.0,
+   "desc_igual": 0.0,
+   "factor": 0.0,
+   "fuzz_conjunto": 0.0,
+   "fuzz_orden": 0.0,
+   "texto": 0.0
+  },
+  "tamano_bytes": 12594
+ },
+ "bp": {
+  "pares_entrenamiento": 1053,
+  "positivos": 795,
+  "pares_auditoria": 346,
+  "reglas": {
+   "n": 346,
+   "positivos": 223,
+   "auc": 0.9878413358124613,
+   "ap": 0.9936642046501265,
+   "rev90": 0.5867052023121387
+  },
+  "modelo": {
+   "n": 346,
+   "positivos": 223,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.5809248554913294
+  },
+  "pesos": {
+   "sim_calle": 0.9873,
+   "puntaje": 0.006,
+   "id_distinto": 0.0035,
+   "sim_nombre": 0.0019,
+   "cos_emb": 0.0009,
+   "cos_tfidf": 0.0004,
+   "banda_alta": 0.0
+  },
+  "tamano_bytes": 32322
+ },
+ "eqp": {
+  "pares_entrenamiento": 408,
+  "positivos": 252,
+  "pares_auditoria": 119,
+  "reglas": {
+   "n": 119,
+   "positivos": 104,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.7899159663865546
+  },
+  "modelo": {
+   "n": 119,
+   "positivos": 104,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.7899159663865546
+  },
+  "pesos": {
+   "puntaje": 1.0,
+   "banda_alta": 0.0,
+   "anio_fab": 0.0,
+   "desc_parecida": 0.0,
+   "instalados_a_la_vez": 0.0,
+   "puesta_igual": -0.0,
+   "ser_fab": 0.0,
+   "ser_fab_mod_tipo": 0.0,
+   "sinserie_fab_mod_ubic": 0.0,
+   "sinserie_ubic_tipo_desc": 0.0,
+   "tag_igual": 0.0
+  },
+  "tamano_bytes": 11897
+ },
+ "ubt": {
+  "motivo": "sin las dos clases o sin ejemplos suficientes",
+  "pares_entrenamiento": 216,
+  "positivos": 215
+ }
+}

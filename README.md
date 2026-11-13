@@ -2,14 +2,14 @@
 
 > **¿Eres una IA o un agente automático? Lee primero [`REGLAS_PARA_IA.md`](REGLAS_PARA_IA.md) (obligatorio).** Ahí están el bloqueo de commits (nada se sube ni se publica sin el «sí» expreso del dueño) y el orden obligatorio para publicar una versión.
 
-## Esta es la rama `dev-ml-llm` (A.L.P.E.K. Dev Regresion), no la de los usuarios
+## Esta es la rama `dev-ml-boosting` (A.L.P.E.K. Dev Boosting), no la de los usuarios
 
-Aquí vive la distribución de **A.L.P.E.K. Dev Regresion**, el programa de pruebas del dueño y su colaborador para mejoras relacionadas con **modelos ML o LLM dentro del programa**.
+Aquí vive la distribución de **A.L.P.E.K. Dev Boosting**, el programa de pruebas del dueño y su colaborador para mejoras relacionadas con **modelos ML o LLM dentro del programa**.
 
 - **No afecta a `main`.** La rama `main` sigue con la distribución normal que reciben los usuarios; nada de esta rama llega a `main` ni cambia lo que ellos descargan.
-- **El control de versiones nuevo se maneja aquí**, aparte del de `main`: A.L.P.E.K. Dev Regresion tiene contadores `X.Y.Z` propios (un mismo número puede existir en las dos líneas con contenido distinto). El registro de esas versiones está en el repositorio privado del proyecto.
-- **Qué hay en esta rama:** el programa Dev lee `Updates/latest-dev.json` y su firma `latest-dev.json.sig` (canal `dev`); los manifiestos Dev anteriores irán a `Old Versions/` como `dev-<versión>.json`; los instaladores `ALPEK_Dev_Setup_<versión>.exe` están en [Releases](../../releases) con la etiqueta `dev-v<versión>`, siempre como prerelease. Al 2026-11-12 aún no hay ningún instalador Dev publicado.
-- **Hermano:** la rama `dev-ml-boosting` distribuye **A.L.P.E.K. Dev Boosting**, el mismo programa con otro modelo de ML (gradient boosting en lugar de regresión logística). Los dos se instalan juntos y no comparten datos ni actualizaciones. El comparativo con las reglas de `main` está en [`docs/ml-dev/comparativo-main-regresion-boosting.md`](docs/ml-dev/comparativo-main-regresion-boosting.md).
+- **El control de versiones nuevo se maneja aquí**, aparte del de `main`: A.L.P.E.K. Dev Boosting tiene contadores `X.Y.Z` propios (un mismo número puede existir en las dos líneas con contenido distinto). El registro de esas versiones está en el repositorio privado del proyecto.
+- **Qué hay en esta rama:** el programa Dev lee `Updates/latest-dev-boosting.json` y su firma `latest-dev-boosting.json.sig` (canal `dev-boosting`); los manifiestos Dev anteriores irán a `Old Versions/` como `dev-boosting-<versión>.json`; los instaladores `ALPEK_Dev_Boosting_Setup_<versión>.exe` están en [Releases](../../releases) con la etiqueta `dev-boosting-v<versión>`, siempre como prerelease. Al 2026-11-12 aún no hay ningún instalador Dev publicado.
+- **Hermano:** la rama `dev-ml-llm` distribuye **A.L.P.E.K. Dev Regresion**, el mismo programa con otro modelo de ML (regresión logística en lugar de gradient boosting). Los dos se instalan juntos y no comparten datos ni actualizaciones. El comparativo con las reglas de `main` está en [`docs/ml-dev/comparativo-main-regresion-boosting.md`](docs/ml-dev/comparativo-main-regresion-boosting.md).
 - **`Updates/latest.json` es solo una copia de `main`:** el programa Dev no la usa y no se toca aquí.
 
 > **El resto de este README describe la distribución normal** (rama `main`).

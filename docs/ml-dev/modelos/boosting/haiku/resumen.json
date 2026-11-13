@@ -1,0 +1,99 @@
+{
+ "mat": {
+  "pares_entrenamiento": 1865,
+  "positivos": 1801,
+  "pares_auditoria": 345,
+  "reglas": {
+   "n": 345,
+   "positivos": 331,
+   "auc": 0.9728096676737161,
+   "ap": 0.9988302712112075,
+   "rev90": 0.863768115942029
+  },
+  "modelo": {
+   "n": 345,
+   "positivos": 331,
+   "auc": 0.9910444540353907,
+   "ap": 0.9996214080125606,
+   "rev90": 0.863768115942029
+  },
+  "pesos": {
+   "puntaje": 0.6763,
+   "banda_alta": 0.1964,
+   "fuzz_conjunto": 0.0675,
+   "fuzz_orden": 0.0376,
+   "texto": 0.0109,
+   "factor": 0.008,
+   "sim_largo": 0.0032,
+   "desc_igual": 0.0
+  },
+  "tamano_bytes": 18664
+ },
+ "bp": {
+  "pares_entrenamiento": 231,
+  "positivos": 168,
+  "pares_auditoria": 83,
+  "reglas": {
+   "n": 83,
+   "positivos": 49,
+   "auc": 0.3640456182472989,
+   "ap": 0.5181380550994046,
+   "rev90": 0.9156626506024096
+  },
+  "modelo": {
+   "n": 83,
+   "positivos": 49,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.5421686746987951
+  },
+  "pesos": {
+   "id_distinto": 1.0,
+   "puntaje": 0.0,
+   "banda_alta": 0.0,
+   "cos_emb": 0.0,
+   "cos_tfidf": 0.0,
+   "sim_calle": 0.0,
+   "sim_nombre": 0.0
+  },
+  "tamano_bytes": 11578
+ },
+ "eqp": {
+  "pares_entrenamiento": 650,
+  "positivos": 233,
+  "pares_auditoria": 275,
+  "reglas": {
+   "n": 275,
+   "positivos": 99,
+   "auc": 0.960169880624426,
+   "ap": 0.9393823723121091,
+   "rev90": 0.3418181818181818
+  },
+  "modelo": {
+   "n": 275,
+   "positivos": 99,
+   "auc": 0.9825814967860422,
+   "ap": 0.9792743764172336,
+   "rev90": 0.32727272727272727
+  },
+  "pesos": {
+   "ser_fab": 0.5785,
+   "puntaje": 0.3083,
+   "desc_parecida": 0.0973,
+   "sinserie_ubic_desc_parecida": 0.0103,
+   "sinserie_ubic_tipo_desc": 0.003,
+   "puesta_igual": 0.0013,
+   "banda_alta": 0.0008,
+   "sinserie_fab_mod_ubic": 0.0005,
+   "tag_igual": 0.0001,
+   "centros_distintos": 0.0,
+   "instalados_a_la_vez": 0.0
+  },
+  "tamano_bytes": 14201
+ },
+ "ubt": {
+  "motivo": "sin las dos clases o sin ejemplos suficientes",
+  "pares_entrenamiento": 905,
+  "positivos": 0
+ }
+}

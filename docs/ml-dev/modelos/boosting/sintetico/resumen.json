@@ -8,25 +8,25 @@
    "positivos": 77428,
    "auc": 0.9988255970671851,
    "ap": 0.9999719384170422,
-   "rev90": 0.8894447989789407
+   "rev90": 0.8894320357370772
   },
   "modelo": {
    "n": 78350,
    "positivos": 77428,
-   "auc": 0.9996581948023758,
-   "ap": 0.9999953623074344,
-   "rev90": 0.8894320357370772
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.8894192724952138
   },
   "pesos": {
-   "desc_igual": 3.2024,
-   "fuzz_conjunto": -2.8521,
-   "banda_alta": 1.7862,
-   "texto": 0.3788,
-   "factor": 0.2835,
-   "puntaje": 0.1844,
-   "fuzz_orden": -0.077
+   "factor": 0.6048,
+   "puntaje": 0.3923,
+   "texto": 0.0029,
+   "banda_alta": 0.0,
+   "desc_igual": 0.0,
+   "fuzz_conjunto": 0.0,
+   "fuzz_orden": -0.0
   },
-  "tamano_bytes": 710
+  "tamano_bytes": 24759
  },
  "bp": {
   "pares_entrenamiento": 7626,
@@ -43,19 +43,19 @@
    "n": 2743,
    "positivos": 1722,
    "auc": 1.0,
-   "ap": 1.0,
+   "ap": 0.9999999999999999,
    "rev90": 0.5650747356908494
   },
   "pesos": {
-   "sim_calle": 8.3049,
-   "id_distinto": -3.3796,
-   "puntaje": 2.0416,
-   "cos_emb": 0.7275,
-   "banda_alta": 0.6199,
-   "cos_tfidf": -0.3977,
-   "sim_nombre": 0.3423
+   "sim_calle": 0.9993,
+   "puntaje": 0.0003,
+   "cos_emb": 0.0003,
+   "cos_tfidf": 0.0002,
+   "banda_alta": 0.0,
+   "id_distinto": 0.0,
+   "sim_nombre": 0.0
   },
-  "tamano_bytes": 706
+  "tamano_bytes": 26981
  },
  "eqp": {
   "pares_entrenamiento": 10680,
@@ -76,21 +76,21 @@
    "rev90": 0.7400630914826498
   },
   "pesos": {
-   "sinserie_fab_mod_ubic": -2.9656,
-   "desc_parecida:100": 1.1171,
-   "anio_fab": -0.8264,
-   "puesta_igual": -0.8264,
-   "sinserie_ubic_tipo_desc": 0.7975,
-   "ser_fab": 0.7164,
-   "centros_distintos": -0.5101,
-   "tags_distintos": -0.5101,
-   "ser_fab_mod_tipo": 0.4191,
-   "tag_igual": 0.3624,
-   "banda_alta": 0.3351,
-   "instalados_a_la_vez": 0.113,
-   "puntaje": -0.0205
+   "sinserie_fab_mod_ubic": 0.9852,
+   "centros_distintos": 0.0094,
+   "tags_distintos": 0.0052,
+   "instalados_a_la_vez": 0.0001,
+   "puntaje": 0.0,
+   "banda_alta": 0.0,
+   "anio_fab": 0.0,
+   "desc_parecida": -0.0,
+   "puesta_igual": 0.0,
+   "ser_fab": 0.0,
+   "ser_fab_mod_tipo": 0.0,
+   "sinserie_ubic_tipo_desc": 0.0,
+   "tag_igual": 0.0
   },
-  "tamano_bytes": 1299
+  "tamano_bytes": 20711
  },
  "ubt": {
   "pares_entrenamiento": 1783,
@@ -111,13 +111,12 @@
    "rev90": 0.8986975397973951
   },
   "pesos": {
-   "mismo_padre_desc_cat": -1.0813,
-   "padre_desc_parecida:95": 0.0921,
-   "puntaje": 0.0918,
-   "padre_desc_parecida:96": 0.0373,
-   "subarbol:4": 0.0155,
-   "banda_alta": 0.0
+   "puntaje": 0.5382,
+   "mismo_padre_desc_cat": 0.4617,
+   "padre_desc_parecida": 0.0001,
+   "banda_alta": 0.0,
+   "subarbol": 0.0
   },
-  "tamano_bytes": 619
+  "tamano_bytes": 15000
  }
 }
