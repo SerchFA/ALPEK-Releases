@@ -1,0 +1,123 @@
+{
+ "mat": {
+  "pares_entrenamiento": 181081,
+  "positivos": 177092,
+  "pares_auditoria": 78350,
+  "reglas": {
+   "n": 78350,
+   "positivos": 77428,
+   "auc": 0.9988255970671851,
+   "ap": 0.9999719384170422,
+   "rev90": 0.8894447989789407
+  },
+  "modelo": {
+   "n": 78350,
+   "positivos": 77428,
+   "auc": 0.9996581948023758,
+   "ap": 0.9999953623074344,
+   "rev90": 0.8894320357370772
+  },
+  "pesos": {
+   "desc_igual": 3.2024,
+   "fuzz_conjunto": -2.8521,
+   "banda_alta": 1.7862,
+   "texto": 0.3788,
+   "factor": 0.2835,
+   "puntaje": 0.1844,
+   "fuzz_orden": -0.077
+  },
+  "tamano_bytes": 710
+ },
+ "bp": {
+  "pares_entrenamiento": 7626,
+  "positivos": 4171,
+  "pares_auditoria": 2743,
+  "reglas": {
+   "n": 2743,
+   "positivos": 1722,
+   "auc": 0.9128396586890173,
+   "ap": 0.9609768012248685,
+   "rev90": 0.7353262850893183
+  },
+  "modelo": {
+   "n": 2743,
+   "positivos": 1722,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.5650747356908494
+  },
+  "pesos": {
+   "sim_calle": 8.3049,
+   "id_distinto": -3.3796,
+   "puntaje": 2.0416,
+   "cos_emb": 0.7275,
+   "banda_alta": 0.6199,
+   "cos_tfidf": -0.3977,
+   "sim_nombre": 0.3423
+  },
+  "tamano_bytes": 706
+ },
+ "eqp": {
+  "pares_entrenamiento": 10680,
+  "positivos": 9974,
+  "pares_auditoria": 3170,
+  "reglas": {
+   "n": 3170,
+   "positivos": 2606,
+   "auc": 0.8940905602455871,
+   "ap": 0.9811568063023695,
+   "rev90": 0.917981072555205
+  },
+  "modelo": {
+   "n": 3170,
+   "positivos": 2606,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.7400630914826498
+  },
+  "pesos": {
+   "sinserie_fab_mod_ubic": -2.9656,
+   "desc_parecida:100": 1.1171,
+   "anio_fab": -0.8264,
+   "puesta_igual": -0.8264,
+   "sinserie_ubic_tipo_desc": 0.7975,
+   "ser_fab": 0.7164,
+   "centros_distintos": -0.5101,
+   "tags_distintos": -0.5101,
+   "ser_fab_mod_tipo": 0.4191,
+   "tag_igual": 0.3624,
+   "banda_alta": 0.3351,
+   "instalados_a_la_vez": 0.113,
+   "puntaje": -0.0205
+  },
+  "tamano_bytes": 1299
+ },
+ "ubt": {
+  "pares_entrenamiento": 1783,
+  "positivos": 1777,
+  "pares_auditoria": 1382,
+  "reglas": {
+   "n": 1382,
+   "positivos": 1380,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.8986975397973951
+  },
+  "modelo": {
+   "n": 1382,
+   "positivos": 1380,
+   "auc": 1.0,
+   "ap": 1.0,
+   "rev90": 0.8986975397973951
+  },
+  "pesos": {
+   "mismo_padre_desc_cat": -1.0813,
+   "padre_desc_parecida:95": 0.0921,
+   "puntaje": 0.0918,
+   "padre_desc_parecida:96": 0.0373,
+   "subarbol:4": 0.0155,
+   "banda_alta": 0.0
+  },
+  "tamano_bytes": 619
+ }
+}
