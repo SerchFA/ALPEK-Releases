@@ -1,20 +1,20 @@
 {
-  "caduca": "2027-12-22T16:43:30+00:00",
+  "caduca": "2027-12-23T15:04:14+00:00",
   "canal": "estable",
   "clave_id": "alpek-2026-a",
   "esquema": 2,
-  "fecha": "2026-11-17",
+  "fecha": "2026-11-18",
   "indice": {
-    "archivo": "indice-35e35a50.json.gz",
-    "sha256": "82ff628119f9ea5094c0430a4243de7590ece3386d95ab5be65a25801731ec3b",
-    "tamano_bytes": 466991,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.11.7/indice-35e35a50.json.gz"
+    "archivo": "indice-e6d79f77.json.gz",
+    "sha256": "98b433e55f144f1e0c4e53257309a4ac8c85cc883d38f8a3dd5b0c83ca78c41b",
+    "tamano_bytes": 467038,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.7/indice-e6d79f77.json.gz"
   },
   "instalador": {
-    "archivo": "ALPEK_Setup_4.11.7.exe",
-    "sha256": "da83e04573d9d5681477651a8f182c76d9b4d7d7698fc9ba91a38bd0262a91e4",
-    "tamano_bytes": 802208959,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.11.7/ALPEK_Setup_4.11.7.exe"
+    "archivo": "ALPEK_Setup_4.12.7.exe",
+    "sha256": "c85bddefc8149bc328059fe7c14265c5a8e8c60c1478fde7fd15af00d369d444",
+    "tamano_bytes": 802237111,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.7/ALPEK_Setup_4.12.7.exe"
   },
   "novedades": {
     "1.0.1": {
@@ -355,15 +355,62 @@
         "Perguntas frequentes: nova seção «Equipamentos e Locais de instalação (Manutenção)» com 7 perguntas: quais tabelas do SE16N carregar, o que acontece se faltar uma, como se decide um duplicado, o que fazem Estrito, Normal e Flexível e suas opções, a comparação ECC contra S/4HANA, a memória, a divisão da revisão e o resumo, e quão testadas estão com dados reais.",
         "Disponível em espanhol, inglês e português, e pode ser encontrada com a busca de Configurações > Perguntas frequentes."
       ]
+    },
+    "4.12.7": {
+      "en": [
+        "New «Load sheet» in Equipment Export: it downloads «MD_Source data of Equipment» with the tabs of the SAP migration template (Master Data, Partners, Short and Long Text), ready for the Fiori Migration Cockpit. There is no template to upload.",
+        "Only what is already clean goes in: unique records and those in groups you marked «They are not duplicates». Duplicates, «I am not sure» and anything not yet reviewed go out through the usual Excel.",
+        "It is available in the three Equipment searches: ECC, S/4HANA and ECC versus S/4HANA (in the last one, the ECC equipment that is not in S/4HANA yet goes in).",
+        "Before downloading you see how many records go in and which template columns will be empty, cut short or have dates that could not be read.",
+        "Equipment now reads more SAP data from the extract (authorization group, location, planner group, catalog profile, company code, business area…) to fill the sheet. How duplicates are searched does not change.",
+        "When you load a file, in any tool, you now see a bar with what the program is doing (reading, recognizing columns, cleaning, saving) and how many seconds it has taken; if you upload several SAP tables, which one it is on.",
+        "In \"Narrow what is compared\" (Equipment and Functional Locations) the filters now adjust to each other: if you pick a plant, the types or categories offer only those that exist in that plant, with their count; the total per plant is shown and the notice says \"X of Y will be compared\" for the chosen plants.",
+        "In \"Data quality\" (Equipment and Functional Locations) the detail of each issue is no longer blank: it shows the record with its description, type, manufacturer, model, serial number and location, and if the problem is a missing value it says \"<Empty>\", like any other empty cell.",
+        "The \"Switch tool\" button is now solid blue, like the main buttons, so it is easier to find.",
+        "On the file upload screens of Equipment, Functional Locations and Customers and Vendors, the title of each box now says what is uploaded and from which system, as in Materials (\"ECC equipment\", \"S/4HANA customers\"), without the table name.",
+        "Materials now accepts the SAP tables separately, as they come out of SE16N: MAKT (required), MARA and MBEW (recommended); MARC, MARD, MVKE, MARM and MLAN are recognised and not used. An already-joined extract still works.",
+        "Customers and vendors: each box accepts the extract or the SAP tables (KNA1 / LFA1 and DFKKBPTAXNUM for tax IDs; KNB1, KNVV, KNBK, KNVI, LFB1, LFM1, LFBK and LFBW are recognised and not used). The Excel workbook and the stand-alone TAX_ID moved to a collapsed \"Other ways to upload\" section, so the screen has less noise.",
+        "Supporting text is easier to read (firmer font) and the notice at the bottom of each step now sits next to the \"Next\" button."
+      ],
+      "es": [
+        "Nueva «Planilla de carga» en Exportar de Equipos: descarga «MD_Source data of Equipment» con las pestañas de la plantilla de migración de SAP (Master Data, Partners, Short and Long Text), lista para el Migration Cockpit de Fiori. No hay que subir ninguna plantilla.",
+        "Va solo lo que ya está limpio: los registros únicos y los de grupos que marcaste «No son duplicados». Los duplicados, los «No estoy seguro» y lo que sigue sin revisar salen por el Excel de siempre.",
+        "Está en las tres búsquedas de Equipos: ECC, S/4HANA y ECC contra S/4HANA (en esta última entran los equipos de ECC que todavía no están en S/4HANA).",
+        "Antes de descargar ves cuántos registros entran y cuáles columnas de la plantilla saldrán vacías, recortadas o con fechas que no se pudieron leer.",
+        "Equipos ahora lee del extracto más datos de SAP (grupo de autorización, emplazamiento, grupo planificador, perfil de catálogo, sociedad, área de empresa…) para llenar la planilla. No cambian cómo se buscan los duplicados.",
+        "Al cargar un archivo, en cualquier herramienta, ahora ves una barra con lo que va haciendo el programa (leer, reconocer columnas, limpiar, guardar) y los segundos que lleva; si subes varias tablas de SAP, cuál va.",
+        "En «Acotar lo que se compara» (Equipos y Ubicaciones técnicas) los filtros ahora se ajustan entre sí: si eliges un centro, los tipos o categorías ofrecen solo los que hay en ese centro, con su cantidad; se muestra el total por centro y el aviso dice «Se compararán X de Y» según los centros elegidos.",
+        "En «Calidad de los datos» (Equipos y Ubicaciones técnicas) el detalle de cada problema ya no sale en blanco: muestra el registro con su descripción, tipo, fabricante, modelo, serie y ubicación, y si el problema es que falta el dato lo dice «<Vacío>», igual que cualquier otra celda vacía.",
+        "El botón «Cambiar herramienta» ahora es azul sólido, como los botones principales, para encontrarlo más fácil.",
+        "En la carga de archivos de Equipos, Ubicaciones técnicas y Clientes y proveedores el título de cada cuadro dice, como en Materiales, qué se sube y de qué sistema («Equipos ECC», «Clientes S/4HANA»), sin el nombre de la tabla.",
+        "Materiales ahora acepta las tablas de SAP por separado, tal como salen de SE16N: MAKT (obligatoria), MARA y MBEW (recomendadas); MARC, MARD, MVKE, MARM y MLAN se reconocen y no se usan. También sigue aceptando un extracto ya junto.",
+        "Clientes y proveedores: cada cuadro acepta el extracto o las tablas de SAP (KNA1 / LFA1 y DFKKBPTAXNUM para los ID fiscales; KNB1, KNVV, KNBK, KNVI, LFB1, LFM1, LFBK y LFBW se reconocen y no se usan). El libro de Excel y el TAX_ID suelto quedaron en «Otras formas de cargar», plegado, para que la pantalla tenga menos ruido.",
+        "Los textos de apoyo se leen mejor (letra más firme) y el aviso del pie de cada paso queda junto al botón «Siguiente»."
+      ],
+      "pt": [
+        "Nova «Planilha de carga» em Exportar de Equipamentos: baixa «MD_Source data of Equipment» com as abas do modelo de migração do SAP (Master Data, Partners, Short and Long Text), pronta para o Migration Cockpit do Fiori. Não é preciso enviar nenhum modelo.",
+        "Vai só o que já está limpo: os registros únicos e os de grupos que você marcou «Não são duplicados». Os duplicados, os «Não tenho certeza» e o que segue sem revisar saem pelo Excel de sempre.",
+        "Está nas três buscas de Equipamentos: ECC, S/4HANA e ECC contra S/4HANA (nesta última entram os equipamentos do ECC que ainda não estão no S/4HANA).",
+        "Antes de baixar você vê quantos registros entram e quais colunas do modelo sairão vazias, cortadas ou com datas que não puderam ser lidas.",
+        "Equipamentos agora lê do extrato mais dados do SAP (grupo de autorização, local, grupo de planejamento, perfil de catálogo, empresa, divisão…) para preencher a planilha. A forma de buscar duplicados não muda.",
+        "Ao carregar um arquivo, em qualquer ferramenta, agora você vê uma barra com o que o programa está fazendo (ler, reconhecer colunas, limpar, salvar) e os segundos que leva; se enviar várias tabelas do SAP, qual está em andamento.",
+        "Em \"Restringir o que é comparado\" (Equipamentos e Locais de instalação) os filtros agora se ajustam entre si: se escolher um centro, os tipos ou categorias oferecem só os que existem nesse centro, com sua quantidade; mostra-se o total por centro e o aviso diz \"Serão comparados X de Y\" conforme os centros escolhidos.",
+        "Em \"Qualidade dos dados\" (Equipamentos e Locais de instalação) o detalhe de cada problema não sai mais em branco: mostra o registro com descrição, tipo, fabricante, modelo, série e local, e se o problema é a falta do dado diz \"<Vazio>\", como qualquer outra célula vazia.",
+        "O botão \"Trocar ferramenta\" agora é azul sólido, como os botões principais, para encontrá-lo mais fácil.",
+        "Nas telas de envio de arquivos de Equipamentos, Locais de instalação e Clientes e fornecedores, o título de cada caixa agora diz o que se envia e de qual sistema, como em Materiais (\"Equipamentos ECC\", \"Clientes S/4HANA\"), sem o nome da tabela.",
+        "Materiais agora aceita as tabelas do SAP separadas, como saem da SE16N: MAKT (obrigatória), MARA e MBEW (recomendadas); MARC, MARD, MVKE, MARM e MLAN são reconhecidas e não são usadas. Um extrato já junto continua funcionando.",
+        "Clientes e fornecedores: cada caixa aceita o extrato ou as tabelas do SAP (KNA1 / LFA1 e DFKKBPTAXNUM para os IDs fiscais; KNB1, KNVV, KNBK, KNVI, LFB1, LFM1, LFBK e LFBW são reconhecidas e não são usadas). O livro do Excel e o TAX_ID avulso ficaram em \"Outras formas de enviar\", recolhido, para a tela ter menos ruído.",
+        "Os textos de apoio ficam mais fáceis de ler (letra mais firme) e o aviso do rodapé de cada etapa fica junto ao botão \"Próximo\"."
+      ]
     }
   },
   "paquetes": [
     {
-      "archivo": "app-d9fdd472.zip",
-      "id": "app-d9fdd472",
-      "sha256": "d9fdd472a98cd68fef53c6a602cda03748a376e8dfc0f7f3cff2440cd2b88dc9",
-      "tamano_bytes": 94200264,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.11.7/app-d9fdd472.zip"
+      "archivo": "app-e6c0d711.zip",
+      "id": "app-e6c0d711",
+      "sha256": "e6c0d7114b3e95594f9e50d797e9c820e9487c54dda076330c4aaf26201c03ba",
+      "tamano_bytes": 94274466,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.7/app-e6c0d711.zip"
     },
     {
       "archivo": "duckdb_cp311-win_amd64_pyd-54b7e370.zip",
@@ -471,11 +518,11 @@
       "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/models-multilingual-e5-base-3-9df28fab.zip"
     },
     {
-      "archivo": "varios-1-4f358b07.zip",
-      "id": "varios-1-4f358b07",
-      "sha256": "4f358b077b4f036e9997784d12ebed6b1e2a873109bba98e73206f220f9dcc78",
-      "tamano_bytes": 39753802,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.10.7/varios-1-4f358b07.zip"
+      "archivo": "varios-1-0bdbbd67.zip",
+      "id": "varios-1-0bdbbd67",
+      "sha256": "0bdbbd673df44e445af9bb3087f77f34fbf899be31cfc5bb2f371accb77e0851",
+      "tamano_bytes": 39753810,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.7/varios-1-0bdbbd67.zip"
     },
     {
       "archivo": "varios-2-1a52cedb.zip",
@@ -488,5 +535,5 @@
   "producto": "ALPEK",
   "solo_instalador": false,
   "tipo": "feat",
-  "version": "4.11.7"
+  "version": "4.12.7"
 }
