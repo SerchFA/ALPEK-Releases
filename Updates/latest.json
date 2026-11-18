@@ -1,20 +1,20 @@
 {
-  "caduca": "2027-12-23T15:04:14+00:00",
+  "caduca": "2027-12-23T16:51:16+00:00",
   "canal": "estable",
   "clave_id": "alpek-2026-a",
   "esquema": 2,
   "fecha": "2026-11-18",
   "indice": {
-    "archivo": "indice-e6d79f77.json.gz",
-    "sha256": "98b433e55f144f1e0c4e53257309a4ac8c85cc883d38f8a3dd5b0c83ca78c41b",
-    "tamano_bytes": 467038,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.7/indice-e6d79f77.json.gz"
+    "archivo": "indice-d6f277a4.json.gz",
+    "sha256": "b2d9c152da3adfe388c11db1c95f7c5880c5dc4dba24d45682346d357442ed1c",
+    "tamano_bytes": 467087,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.8/indice-d6f277a4.json.gz"
   },
   "instalador": {
-    "archivo": "ALPEK_Setup_4.12.7.exe",
-    "sha256": "c85bddefc8149bc328059fe7c14265c5a8e8c60c1478fde7fd15af00d369d444",
-    "tamano_bytes": 802237111,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.7/ALPEK_Setup_4.12.7.exe"
+    "archivo": "ALPEK_Setup_4.12.8.exe",
+    "sha256": "979045605793d549aa17b887291ec1d8b13781b0e6fd7d3629799e3aa09c4a2d",
+    "tamano_bytes": 802302498,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.8/ALPEK_Setup_4.12.8.exe"
   },
   "novedades": {
     "1.0.1": {
@@ -402,15 +402,26 @@
         "Clientes e fornecedores: cada caixa aceita o extrato ou as tabelas do SAP (KNA1 / LFA1 e DFKKBPTAXNUM para os IDs fiscais; KNB1, KNVV, KNBK, KNVI, LFB1, LFM1, LFBK e LFBW são reconhecidas e não são usadas). O livro do Excel e o TAX_ID avulso ficaram em \"Outras formas de enviar\", recolhido, para a tela ter menos ruído.",
         "Os textos de apoio ficam mais fáceis de ler (letra mais firme) e o aviso do rodapé de cada etapa fica junto ao botão \"Próximo\"."
       ]
+    },
+    "4.12.8": {
+      "en": [
+        "The home screen now shows a «Work in Progress» notice: A.L.P.E.K. is still under development and screens and features may change."
+      ],
+      "es": [
+        "La pantalla principal ahora muestra un aviso «Work in Progress»: A.L.P.E.K. sigue en desarrollo y pueden cambiar pantallas y funciones."
+      ],
+      "pt": [
+        "A tela principal agora mostra um aviso «Work in Progress»: o A.L.P.E.K. ainda está em desenvolvimento e telas e funções podem mudar."
+      ]
     }
   },
   "paquetes": [
     {
-      "archivo": "app-e6c0d711.zip",
-      "id": "app-e6c0d711",
-      "sha256": "e6c0d7114b3e95594f9e50d797e9c820e9487c54dda076330c4aaf26201c03ba",
-      "tamano_bytes": 94274466,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.7/app-e6c0d711.zip"
+      "archivo": "app-58a66401.zip",
+      "id": "app-58a66401",
+      "sha256": "58a66401f445ce113432ef348b282d52998a7132fb6024ac50a5968c9d74fbdd",
+      "tamano_bytes": 94275142,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.8/app-58a66401.zip"
     },
     {
       "archivo": "duckdb_cp311-win_amd64_pyd-54b7e370.zip",
@@ -534,6 +545,6 @@
   ],
   "producto": "ALPEK",
   "solo_instalador": false,
-  "tipo": "feat",
-  "version": "4.12.7"
+  "tipo": "fix",
+  "version": "4.12.8"
 }
