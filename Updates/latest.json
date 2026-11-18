@@ -1,20 +1,20 @@
 {
-  "caduca": "2027-12-23T16:51:16+00:00",
+  "caduca": "2027-12-23T18:59:57+00:00",
   "canal": "estable",
   "clave_id": "alpek-2026-a",
   "esquema": 2,
   "fecha": "2026-11-18",
   "indice": {
-    "archivo": "indice-d6f277a4.json.gz",
-    "sha256": "b2d9c152da3adfe388c11db1c95f7c5880c5dc4dba24d45682346d357442ed1c",
-    "tamano_bytes": 467087,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.8/indice-d6f277a4.json.gz"
+    "archivo": "indice-213a59de.json.gz",
+    "sha256": "b0e27d56a1cac39c7102351c66d28996b7352c1cf52eea9e60623b58e2904711",
+    "tamano_bytes": 467132,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.9/indice-213a59de.json.gz"
   },
   "instalador": {
-    "archivo": "ALPEK_Setup_4.12.8.exe",
-    "sha256": "979045605793d549aa17b887291ec1d8b13781b0e6fd7d3629799e3aa09c4a2d",
-    "tamano_bytes": 802302498,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.8/ALPEK_Setup_4.12.8.exe"
+    "archivo": "ALPEK_Setup_4.12.9.exe",
+    "sha256": "80e1472c9fd32aba43a9a47938b4121887977b95da59413e7317f29b15b92393",
+    "tamano_bytes": 802286440,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.9/ALPEK_Setup_4.12.9.exe"
   },
   "novedades": {
     "1.0.1": {
@@ -413,15 +413,26 @@
       "pt": [
         "A tela principal agora mostra um aviso «Work in Progress»: o A.L.P.E.K. ainda está em desenvolvimento e telas e funções podem mudar."
       ]
+    },
+    "4.12.9": {
+      "en": [
+        "Fixed the «Work in Progress» notice on the home screen: the text «construction» no longer shows over the notice."
+      ],
+      "es": [
+        "Se corrige el aviso «Work in Progress» de la pantalla principal: ya no se ve el texto «construction» encima del aviso."
+      ],
+      "pt": [
+        "Corrigido o aviso «Work in Progress» da tela principal: o texto «construction» não aparece mais sobre o aviso."
+      ]
     }
   },
   "paquetes": [
     {
-      "archivo": "app-58a66401.zip",
-      "id": "app-58a66401",
-      "sha256": "58a66401f445ce113432ef348b282d52998a7132fb6024ac50a5968c9d74fbdd",
-      "tamano_bytes": 94275142,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.8/app-58a66401.zip"
+      "archivo": "app-265c00d0.zip",
+      "id": "app-265c00d0",
+      "sha256": "265c00d0dfe65c5499dcfd40f2056ecc9f65656406b237e5c6513cbaff3d7c21",
+      "tamano_bytes": 94276903,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.9/app-265c00d0.zip"
     },
     {
       "archivo": "duckdb_cp311-win_amd64_pyd-54b7e370.zip",
@@ -546,5 +557,5 @@
   "producto": "ALPEK",
   "solo_instalador": false,
   "tipo": "fix",
-  "version": "4.12.8"
+  "version": "4.12.9"
 }
