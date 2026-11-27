@@ -1,20 +1,20 @@
 {
-  "caduca": "2027-12-23T18:59:57+00:00",
+  "caduca": "2028-01-01T22:16:07+00:00",
   "canal": "estable",
   "clave_id": "alpek-2026-a",
   "esquema": 2,
-  "fecha": "2026-11-18",
+  "fecha": "2026-11-27",
   "indice": {
-    "archivo": "indice-213a59de.json.gz",
-    "sha256": "b0e27d56a1cac39c7102351c66d28996b7352c1cf52eea9e60623b58e2904711",
-    "tamano_bytes": 467132,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.9/indice-213a59de.json.gz"
+    "archivo": "indice-7c8c7694.json.gz",
+    "sha256": "4ca41725280359f9ce4f1ce11e84ed2f0db6398bf8d2cff56da0d3e5893f6d19",
+    "tamano_bytes": 467459,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v5.13.9/indice-7c8c7694.json.gz"
   },
   "instalador": {
-    "archivo": "ALPEK_Setup_4.12.9.exe",
-    "sha256": "80e1472c9fd32aba43a9a47938b4121887977b95da59413e7317f29b15b92393",
-    "tamano_bytes": 802286440,
-    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.9/ALPEK_Setup_4.12.9.exe"
+    "archivo": "ALPEK_Setup_5.13.9.exe",
+    "sha256": "e631066c67d94dad6c8206779741cf6f11eba277843c53221807eb9a5ab4e000",
+    "tamano_bytes": 802547654,
+    "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v5.13.9/ALPEK_Setup_5.13.9.exe"
   },
   "novedades": {
     "1.0.1": {
@@ -27,6 +27,11 @@
         "Corrige la comparación entre número de parte y medidas: dos materiales con medidas distintas ya no se agrupan.",
         "Los pares que el motor descarta como «no son lo mismo» tampoco se juntan por medio de un tercer material.",
         "El umbral «por revisar» de la sensibilidad Estricta pasa de 85 % a 90 %."
+      ],
+      "fr": [
+        "Corrige la comparaison entre numéro de pièce et dimensions : deux articles aux dimensions différentes ne sont plus regroupés.",
+        "Les paires que le moteur écarte comme « pas la même chose » ne sont pas non plus réunies par l’intermédiaire d’un troisième article.",
+        "Le seuil « à vérifier » de la sensibilité Strict passe de 85 % à 90 %."
       ],
       "pt": [
         "Corrige a comparação entre número de peça e medidas: dois materiais com medidas diferentes não são mais agrupados.",
@@ -43,6 +48,10 @@
         "La configuración (diccionarios y ajustes) viaja con cada versión: al actualizar, el programa la sincroniza y guarda una copia de la anterior.",
         "Tus datos y archivos de trabajo no se tocan al actualizar."
       ],
+      "fr": [
+        "La configuration (dictionnaires et réglages) accompagne chaque version : à la mise à jour, le programme la synchronise et conserve une copie de la précédente.",
+        "Vos données et fichiers de travail ne sont pas touchés lors de la mise à jour."
+      ],
       "pt": [
         "A configuração (dicionários e ajustes) viaja com cada versão: ao atualizar, o programa a sincroniza e guarda uma cópia da anterior.",
         "Seus dados e arquivos de trabalho não são alterados ao atualizar."
@@ -54,6 +63,9 @@
       ],
       "es": [
         "Mejora interna de seguridad: la clave de auditoría ya no está escrita en el código fuente. El Excel se genera igual que antes."
+      ],
+      "fr": [
+        "Amélioration interne de la sécurité : la clé d’audit n’est plus écrite dans le code source. Le fichier Excel est généré comme avant."
       ],
       "pt": [
         "Melhoria interna de segurança: a chave de auditoria não está mais escrita no código-fonte. O Excel é gerado exatamente como antes."
@@ -68,6 +80,10 @@
         "Nueva pantalla de Ajustes (botón en la barra superior): idioma, «Limpiar memoria» y datos del programa.",
         "«Limpiar memoria» libera la memoria temporal sin tocar tus archivos cargados, los Excel exportados ni la sesión anterior."
       ],
+      "fr": [
+        "Nouvel écran Paramètres (bouton dans la barre du haut) : langue, « Vider la mémoire » et renseignements sur le programme.",
+        "« Vider la mémoire » libère la mémoire temporaire sans toucher à vos fichiers chargés, aux fichiers Excel exportés ni à la session précédente."
+      ],
       "pt": [
         "Nova tela de Configurações (botão na barra superior): idioma, «Limpar memória» e dados do programa.",
         "«Limpar memória» libera a memória temporária sem alterar seus arquivos carregados, os Excel exportados nem a sessão anterior."
@@ -80,6 +96,9 @@
       "es": [
         "Nueva pestaña «Novedades» en Ajustes: lo que trae cada versión, en tu idioma."
       ],
+      "fr": [
+        "Nouvel onglet « Nouveautés » dans Paramètres : ce qu’apporte chaque version, dans votre langue."
+      ],
       "pt": [
         "Nova aba «Novidades» em Configurações: o que cada versão traz, no seu idioma."
       ]
@@ -91,6 +110,9 @@
       "es": [
         "Tema claro u oscuro en Ajustes > General. Se guarda y se aplica la próxima vez que abras el programa."
       ],
+      "fr": [
+        "Thème clair ou foncé dans Paramètres > Général. Il est enregistré et s’applique à la prochaine ouverture du programme."
+      ],
       "pt": [
         "Tema claro ou escuro em Configurações > Geral. É salvo e vale na próxima vez que você abrir o programa."
       ]
@@ -101,6 +123,9 @@
       ],
       "es": [
         "En Ajustes > Novedades hay un banner «Registro de cambios» con la versión a la que se actualizó el programa."
+      ],
+      "fr": [
+        "Dans Paramètres > Nouveautés, une bannière « Journal des modifications » indique la version à laquelle le programme a été mis à jour."
       ],
       "pt": [
         "Em Configurações > Novidades há um banner «Registro de alterações» com a versão para a qual o programa foi atualizado."
@@ -118,6 +143,12 @@
         "La ruta «Inicio › Workstream › Herramienta» se muestra arriba, y «Cambiar herramienta» vuelve a la lista de tu workstream.",
         "El idioma (ES / EN / PT) y el tema se cambian solo en Ajustes > General.",
         "El menú lateral aparece al elegir un workstream, y al cambiar de herramienta el programa libera su memoria temporal para no saturarse."
+      ],
+      "fr": [
+        "Nouvel écran d’accueil par secteur (Accounting, Maintenance, Manufacturing, Procurement, Quality, Sales et Supply Chain) avec un menu latéral toujours visible : vous choisissez le secteur et voyez ses outils.",
+        "Le chemin « Accueil › Secteur › Outil » s’affiche dans le haut, et « Changer d’outil » ramène à la liste de votre secteur.",
+        "La langue (ES / EN / PT) et le thème se changent uniquement dans Paramètres > Général.",
+        "Le menu latéral apparaît lorsque vous choisissez un secteur, et au changement d’outil, le programme libère sa mémoire temporaire pour ne pas se saturer."
       ],
       "pt": [
         "Nova tela inicial por workstream (Accounting, Maintenance, Manufacturing, Procurement, Quality, Sales e Supply Chain) com um menu lateral sempre visível: você escolhe o workstream e vê as suas ferramentas.",
@@ -143,6 +174,14 @@
         "Nuevo botón «No pertenecen al grupo» en Materiales y en Clientes y proveedores: saca de una vez a varios registros del grupo, sin cerrarlo ni pasar al siguiente.",
         "Materiales entiende mejor los errores de captura (por ejemplo «SEEL» por «STEEL»): con un error por descripción encuentra 73 % de los duplicados en lugar de 56 %, sin perder precisión."
       ],
+      "fr": [
+        "L’outil Clients et fournisseurs a maintenant la même étape Critères que l’outil Articles : filtre 1 · Nom et filtre 2 · Adresse avec Strict / Normal / Souple, filtre par groupe de comptes, profils et « Mémoriser mes décisions ».",
+        "Nouveaux avertissements (⚠) qui expliquent pourquoi une paire ne sort pas comme doublon certain : succursales (SUC 1 et SUC 2), la même rue avec un autre numéro, des adresses différentes, un numéro fiscal presque identique et le même numéro avec un autre nom.",
+        "Aucun enregistrement ayant une paire utile n’est masqué : ceux « à vérifier » entrent dans leur groupe comme « incertains » et la comparaison entre ECC et S/4HANA énumère tous les candidats.",
+        "L’outil Clients et fournisseurs propose aussi « Pourquoi sont-ils jugés semblables? », la tendance par rapport à la recherche précédente, la répartition de la révision (par groupe de comptes ou pays) et le sommaire exécutif en PDF.",
+        "Nouveau bouton « N’appartiennent pas au groupe » dans les outils Articles et Clients et fournisseurs : il retire d’un coup plusieurs enregistrements du groupe, sans le fermer ni passer au suivant.",
+        "L’outil Articles comprend mieux les erreurs de saisie (par exemple « SEEL » pour « STEEL ») : avec une erreur par désignation, il trouve 73 % des doublons au lieu de 56 %, sans perdre de précision."
+      ],
       "pt": [
         "Clientes e fornecedores agora tem a mesma etapa Critérios que Materiais: Filtro 1 · Nome e Filtro 2 · Endereço com Estrito / Normal / Flexível, filtro por grupo de contas, perfis e «Lembrar minhas decisões».",
         "Novos avisos (⚠) que explicam por que um par não sai como duplicado seguro: filiais (FILIAL 1 e 2), a mesma rua com outro número, endereços diferentes, ID fiscal quase igual e o mesmo ID com outro nome.",
@@ -161,6 +200,10 @@
         "A.L.P.E.K. ahora se abre en su propia ventana (ya no en una pestaña del navegador). Si tu equipo no la puede abrir, usa el navegador como antes.",
         "Al cerrar la ventana, el programa se cierra y limpia por completo; ya no hay una consola negra que cerrar."
       ],
+      "fr": [
+        "A.L.P.E.K. s’ouvre maintenant dans sa propre fenêtre (et non plus dans un onglet du navigateur). Si votre ordinateur ne peut pas l’ouvrir, il utilise le navigateur comme avant.",
+        "À la fermeture de la fenêtre, le programme se ferme et nettoie complètement; il n’y a plus de console noire à fermer."
+      ],
       "pt": [
         "O A.L.P.E.K. agora abre em sua própria janela (e não mais em uma aba do navegador). Se o seu computador não conseguir abri-la, usa o navegador como antes.",
         "Ao fechar a janela, o programa se encerra e limpa tudo; não há mais um console preto para fechar."
@@ -173,6 +216,9 @@
       "es": [
         "Al abrir el programa en su ventana propia ya no se abre además una pestaña del navegador."
       ],
+      "fr": [
+        "À l’ouverture du programme dans sa propre fenêtre, un onglet du navigateur ne s’ouvre plus en même temps."
+      ],
       "pt": [
         "Ao abrir o programa na janela própria, não se abre mais uma aba extra do navegador."
       ]
@@ -183,6 +229,9 @@
       ],
       "es": [
         "En Ajustes > Novedades cada versión muestra si fue una Corrección, una Función nueva o una Actualización mayor."
+      ],
+      "fr": [
+        "Dans Paramètres > Nouveautés, chaque version indique s’il s’agit d’un correctif, d’une nouvelle fonction ou d’une mise à jour majeure."
       ],
       "pt": [
         "Em Configurações > Novidades, cada versão mostra se foi uma Correção, uma Funcionalidade ou uma Atualização principal."
@@ -199,6 +248,11 @@
         "Cada actualización se verifica con firma digital y huellas antes de instalarse; si algo falla, se conserva la versión anterior.",
         "Un aviso discreto te dice cuando hay una versión nueva. Puedes desactivar la búsqueda automática en Ajustes."
       ],
+      "fr": [
+        "Nouveau : dans Paramètres > Mises à jour, vous pouvez chercher la nouvelle version, la télécharger avec une barre de progression et l’installer lorsque vous le confirmez; seuls les fichiers modifiés sont téléchargés.",
+        "Chaque mise à jour est vérifiée par signature numérique et empreintes avant d’être installée; en cas d’échec, la version précédente est conservée.",
+        "Un avis discret vous signale qu’une nouvelle version est offerte. Vous pouvez désactiver la recherche automatique dans Paramètres."
+      ],
       "pt": [
         "Novo: em Configurações > Atualizações você pode buscar a versão nova, baixá-la com barra de progresso e instalá-la quando confirmar; só os arquivos que mudaram são baixados.",
         "Cada atualização é verificada com assinatura digital e checksums antes de instalar; se algo falhar, a versão anterior é mantida.",
@@ -211,6 +265,9 @@
       ],
       "es": [
         "Las herramientas ahora aparecen en los workstreams que corresponden: Materiales en Compras, Manufactura, Mantenimiento y Calidad; Clientes y proveedores en Compras y Ventas. Contabilidad y Cadena de Suministro quedan como «Próximamente»."
+      ],
+      "fr": [
+        "Les outils apparaissent maintenant dans les secteurs correspondants : Articles dans Approvisionnement, Fabrication, Maintenance et Qualité; Clients et fournisseurs dans Approvisionnement et Ventes. Comptabilité et Chaîne d’approvisionnement demeurent « À venir »."
       ],
       "pt": [
         "As ferramentas agora aparecem nos workstreams corretos: Materiais em Compras, Manufatura, Manutenção e Qualidade; Clientes e fornecedores em Compras e Vendas. Contabilidade e Cadeia de Suprimentos aparecem como «Em breve»."
@@ -227,6 +284,11 @@
         "Al ocultar el menú lateral, la pantalla se centra; antes quedaba corrida a la derecha.",
         "En el paso 2 de Materiales, «Qué tan exigente quieres ser» ahora son dos filtros con niveles fijos (Estricto, Normal y Flexible), uno para la descripción y otro para el texto largo, juntos y sin barras. «Homologar» también usa los tres niveles y solo aparece al comparar ECC contra S/4HANA."
       ],
+      "fr": [
+        "Dans Paramètres > Mises à jour, l’adresse complète du dépôt n’est plus affichée : seulement « GitHub · ALPEK-Releases », avec un lien.",
+        "Lorsque le menu latéral est masqué, l’écran est centré; auparavant, il restait décalé vers la droite.",
+        "À l’étape 2 des articles, « Quel degré d’exigence voulez-vous » comprend maintenant deux filtres à niveaux fixes (Strict, Normal et Souple), un pour la désignation et un pour le texte long, réunis et sans curseurs. « Harmoniser » utilise aussi les trois niveaux et n’apparaît que dans la comparaison entre ECC et S/4HANA."
+      ],
       "pt": [
         "Em Configurações > Atualizações não aparece mais o endereço completo do repositório: apenas «GitHub · ALPEK-Releases», com um link.",
         "Ao ocultar o menu lateral, a tela fica centralizada; antes ficava deslocada para a direita.",
@@ -242,6 +304,10 @@
         "Nueva pestaña «Preguntas frecuentes» en Ajustes: respuestas cortas, con buscador y sin internet, sobre los criterios del paso 2, el Excel, las actualizaciones y más.",
         "Si no encuentras tu duda, contacta al Supervisor de Datos Maestros."
       ],
+      "fr": [
+        "Nouvel onglet « Foire aux questions » dans Paramètres : des réponses courtes, avec recherche et sans Internet, sur les critères de l’étape 2, le fichier Excel, les mises à jour et plus encore.",
+        "Si vous ne trouvez pas votre réponse, communiquez avec le superviseur des données de base."
+      ],
       "pt": [
         "Nova aba «Perguntas frequentes» em Configurações: respostas curtas, com busca e sem internet, sobre os critérios da etapa 2, o Excel, as atualizações e mais.",
         "Se não encontrar sua dúvida, entre em contato com o Supervisor de Dados Mestres."
@@ -255,6 +321,10 @@
       "es": [
         "Ajustes > Actualizaciones: el botón «Descargar» aparece de inmediato al encontrar una versión nueva; antes podía no mostrarse mientras el programa verificaba los archivos instalados.",
         "El tamaño de la descarga se calcula en segundo plano y se muestra cuando está listo."
+      ],
+      "fr": [
+        "Paramètres > Mises à jour : le bouton « Télécharger » apparaît dès qu’une nouvelle version est trouvée; auparavant, il pouvait ne pas s’afficher pendant que le programme vérifiait les fichiers installés.",
+        "La taille du téléchargement est calculée en arrière-plan et s’affiche lorsqu’elle est prête."
       ],
       "pt": [
         "Configurações > Atualizações: o botão «Baixar» aparece imediatamente ao encontrar uma versão nova; antes podia não aparecer enquanto o programa verificava os arquivos instalados.",
@@ -284,6 +354,17 @@
         "Nuevo «Exportar diagnóstico» en Ajustes > Acerca de: un ZIP para el Supervisor de Datos Maestros o TI, sin datos de SAP.",
         "Incluye la corrección del botón «Descargar» de Ajustes > Actualizaciones (3.8.6)."
       ],
+      "fr": [
+        "L’outil Articles se souvient de ce que vous avez déjà écarté (« Pas des doublons » ou séparé d’un groupe) : cela ne réapparaît pas dans les recherches suivantes. On peut désactiver cette mémoire ou l’effacer à l’étape Critères.",
+        "Si votre extraction contient la valeur du stock, la révision commence par les groupes qui valent le plus et chaque groupe affiche sa valeur.",
+        "Chaque groupe et chaque paire propose « Pourquoi sont-ils jugés semblables? » : les mots et les dimensions en commun et ce que chacun a en propre.",
+        "Profils de critères : enregistrez vos choix de l’étape 2 sous un nom (par exemple « Maintenance · Souple ») et appliquez-les en un clic.",
+        "À l’exportation, vous voyez l’évolution par rapport à la recherche précédente (groupes, éléments à vérifier, articles analysés).",
+        "Nouveau, « Répartir la révision » : un ZIP avec un fichier Excel par type ou groupe d’article, pour envoyer à chaque personne sa part.",
+        "Nouveau, « Sommaire exécutif » : un PDF d’une page avec les chiffres clés et la tendance.",
+        "Nouveau, « Exporter le diagnostic » dans Paramètres > À propos : un ZIP pour le superviseur des données de base ou les TI, sans données SAP.",
+        "Comprend le correctif du bouton « Télécharger » de Paramètres > Mises à jour (3.8.6)."
+      ],
       "pt": [
         "Materiais lembra o que você já descartou («Não são duplicados» ou separado de um grupo): não volta nas próximas buscas. Pode ser desligado ou esquecido na etapa Critérios.",
         "Se o seu extrato trouxer o valor do estoque, a revisão começa pelos grupos que mais valem e cada grupo mostra seu valor.",
@@ -309,6 +390,12 @@
         "ECC contra S/4HANA: además del candidato más parecido se listan los demás («Otros candidatos en S/4HANA») y el Excel los trae como «Otro candidato».",
         "Perfiles de criterios: al aplicar un perfil ya no queda una advertencia en el registro."
       ],
+      "fr": [
+        "Aucun article ayant une paire « certaine » ou « à vérifier » n’est laissé de côté : dans les groupes de plus de 20 articles, ceux qui se détachaient au découpage du groupe ne sont plus perdus.",
+        "Un article « à vérifier » dont la paire était déjà dans un groupe certain apparaît maintenant dans ce groupe, marqué « incertain » (il n’est pas regroupé automatiquement).",
+        "ECC et S/4HANA : en plus du candidat le plus semblable, les autres sont énumérés (« Autres candidats dans S/4HANA ») et le fichier Excel les présente comme « Autre candidat ».",
+        "Profils de critères : l’application d’un profil ne laisse plus d’avertissement dans le journal."
+      ],
       "pt": [
         "Nenhum material com um par «seguro» ou «para revisar» deixa de aparecer: em grupos com mais de 20 materiais não se perdem mais os que se desconectavam ao dividir o grupo.",
         "Um material «para revisar» cujo par já estava em um grupo seguro agora aparece nesse grupo, marcado «em dúvida» (não é consolidado sozinho).",
@@ -333,6 +420,14 @@
         "ECC contra S/4HANA: compara objeto por objeto, con filtros y decisión por par o por lote; la hoja «ECC vs S4» va en el Excel.",
         "Entrega: Excel para el negocio y resumen ejecutivo en PDF."
       ],
+      "fr": [
+        "Nouveau dans Maintenance : Équipements et Postes techniques, deux outils indépendants qui lisent les tables SAP telles qu’elles sortent de SE16N (ECC et S/4HANA) et les réunissent eux-mêmes : Équipements avec EQUI, EQKT, EQUZ, ILOA et JEST; Postes techniques avec IFLOT, IFLOTX, ILOA et JEST.",
+        "Étape Critères comme pour les articles : niveau Strict / Normal / Souple, types de paires à chercher, options, filtres (division, type ou catégorie, début du poste technique), profils et « Mémoriser mes décisions ».",
+        "Révision plus claire : chaque groupe montre d’un coup d’œil ce qui est conservé, ce qui est le doublon et ce qui reste hors groupe; dans les groupes de 3 ou plus, on peut marquer plusieurs doublons. « Ce ne sont pas des doublons » et « Je ne suis pas certain » laissent tout à « Conserver » et passent au groupe suivant.",
+        "Révision par lot avec sélection multiple, tableau en couleurs qui compare chaque donnée, mémoire des décisions, tendance par rapport à la recherche précédente et répartition de la révision par division, type ou usine.",
+        "ECC et S/4HANA : comparaison objet par objet, avec filtres et décision par paire ou par lot; la feuille « ECC vs S4 » est incluse dans le fichier Excel.",
+        "Livrables : fichier Excel pour les responsables métier et sommaire exécutif en PDF."
+      ],
       "pt": [
         "Novo em Manutenção: Equipamentos e Locais de instalação, duas ferramentas independentes que leem as tabelas do SAP como saem da SE16N (ECC e S/4HANA) e as unem sozinhas: Equipamentos com EQUI, EQKT, EQUZ, ILOA e JEST; Locais com IFLOT, IFLOTX, ILOA e JEST.",
         "Etapa Critérios como em Materiais: nível Estrito / Normal / Flexível, tipos de pares a buscar, opções, filtros (centro, tipo ou categoria, início do local), perfis e «Lembrar minhas decisões».",
@@ -350,6 +445,10 @@
       "es": [
         "Preguntas frecuentes: nueva sección «Equipos y Ubicaciones técnicas (Mantenimiento)» con 7 preguntas: qué tablas de SE16N subir, qué pasa si falta una, cómo se decide un duplicado, qué hacen Estricto, Normal y Flexible y sus opciones, la comparación ECC contra S/4HANA, la memoria, el reparto y el resumen, y qué tan probadas están con datos reales.",
         "Disponible en español, inglés y portugués, y se encuentra con el buscador de Ajustes > Preguntas frecuentes."
+      ],
+      "fr": [
+        "Foire aux questions : nouvelle section « Équipements et postes techniques (Maintenance) » avec 7 questions : les tables SE16N à charger, ce qui arrive s’il en manque une, comment on décide d’un doublon, ce que font Strict, Normal et Souple et leurs options, la comparaison entre ECC et S/4HANA, la mémoire, la répartition et le sommaire, et à quel point les outils ont été éprouvés avec des données réelles.",
+        "Offerte en espagnol, en anglais et en portugais, elle se consulte avec la recherche de Paramètres > Foire aux questions."
       ],
       "pt": [
         "Perguntas frequentes: nova seção «Equipamentos e Locais de instalação (Manutenção)» com 7 perguntas: quais tabelas do SE16N carregar, o que acontece se faltar uma, como se decide um duplicado, o que fazem Estrito, Normal e Flexível e suas opções, a comparação ECC contra S/4HANA, a memória, a divisão da revisão e o resumo, e quão testadas estão com dados reais.",
@@ -387,6 +486,21 @@
         "Clientes y proveedores: cada cuadro acepta el extracto o las tablas de SAP (KNA1 / LFA1 y DFKKBPTAXNUM para los ID fiscales; KNB1, KNVV, KNBK, KNVI, LFB1, LFM1, LFBK y LFBW se reconocen y no se usan). El libro de Excel y el TAX_ID suelto quedaron en «Otras formas de cargar», plegado, para que la pantalla tenga menos ruido.",
         "Los textos de apoyo se leen mejor (letra más firme) y el aviso del pie de cada paso queda junto al botón «Siguiente»."
       ],
+      "fr": [
+        "Nouvelle « Feuille de chargement » dans Exporter pour les équipements : téléchargez « MD_Source data of Equipment » avec les onglets du modèle de migration SAP (Master Data, Partners, Short and Long Text), prêt pour le Migration Cockpit de Fiori. Aucun modèle à téléverser.",
+        "On inclut seulement ce qui est déjà nettoyé : les enregistrements uniques et ceux des groupes que vous avez marqués « Ce ne sont pas des doublons ». Les doublons, les « Je ne suis pas certain » et ce qui reste à examiner sortent par le fichier Excel habituel.",
+        "Elle est offerte pour les trois recherches d’équipements : ECC, S/4HANA et ECC et S/4HANA (dans cette dernière entrent les équipements d’ECC qui ne sont pas encore dans S/4HANA).",
+        "Avant le téléchargement, vous voyez combien d’enregistrements entrent et quelles colonnes du modèle seront vides, tronquées ou avec des dates illisibles.",
+        "L’outil Équipements lit maintenant plus de données SAP de l’extraction (groupe d’autorisation, localisation, groupe de planification, profil de catalogue, société, secteur d’exploitation…) pour remplir la feuille. Elles ne changent pas la façon de chercher les doublons.",
+        "Au chargement d’un fichier, dans tous les outils, une barre montre maintenant ce que fait le programme (lecture, reconnaissance des colonnes, nettoyage, enregistrement) et le nombre de secondes écoulées; si vous chargez plusieurs tables SAP, elle indique laquelle est en cours.",
+        "Dans « Limiter ce qui est comparé » (Équipements et Postes techniques), les filtres s’ajustent maintenant entre eux : si vous choisissez une division, les types ou catégories n’offrent que ceux de cette division, avec leur nombre; le total par division est affiché et l’avis indique combien d’éléments sur le total seront comparés selon les divisions choisies.",
+        "Dans « Qualité des données » (Équipements et Postes techniques), le détail de chaque problème n’est plus vide : il montre l’enregistrement avec sa désignation, son type, son fabricant, son modèle, son numéro de série et son emplacement, et lorsque le problème est une donnée manquante, il affiche « <Vide> », comme toute autre cellule vide.",
+        "Le bouton « Changer d’outil » est maintenant bleu plein, comme les boutons principaux, pour le trouver plus facilement.",
+        "Au chargement des fichiers des équipements, des postes techniques et des clients et fournisseurs, le titre de chaque zone indique, comme pour les articles, ce qu’on charge et de quel système (« Équipements ECC », « Clients S/4HANA »), sans le nom de la table.",
+        "L’outil Articles accepte maintenant les tables SAP séparément, telles qu’elles sortent de SE16N : MAKT (obligatoire), MARA et MBEW (recommandées); MARC, MARD, MVKE, MARM et MLAN sont reconnues et ne sont pas utilisées. Il accepte toujours une extraction déjà réunie.",
+        "Clients et fournisseurs : chaque zone accepte l’extraction ou les tables SAP (KNA1 / LFA1 et DFKKBPTAXNUM pour les numéros fiscaux; KNB1, KNVV, KNBK, KNVI, LFB1, LFM1, LFBK et LFBW sont reconnues et ne sont pas utilisées). Le classeur Excel et le TAX_ID séparé se trouvent dans « Autres façons de charger », replié, pour alléger l’écran.",
+        "Les textes d’appoint se lisent mieux (caractère plus marqué) et l’avis au bas de chaque étape se trouve à côté du bouton « Suivant »."
+      ],
       "pt": [
         "Nova «Planilha de carga» em Exportar de Equipamentos: baixa «MD_Source data of Equipment» com as abas do modelo de migração do SAP (Master Data, Partners, Short and Long Text), pronta para o Migration Cockpit do Fiori. Não é preciso enviar nenhum modelo.",
         "Vai só o que já está limpo: os registros únicos e os de grupos que você marcou «Não são duplicados». Os duplicados, os «Não tenho certeza» e o que segue sem revisar saem pelo Excel de sempre.",
@@ -410,6 +524,9 @@
       "es": [
         "La pantalla principal ahora muestra un aviso «Work in Progress»: A.L.P.E.K. sigue en desarrollo y pueden cambiar pantallas y funciones."
       ],
+      "fr": [
+        "L’écran principal affiche maintenant un avis « Travaux en cours » : A.L.P.E.K. est encore en développement et des écrans et des fonctions peuvent changer."
+      ],
       "pt": [
         "A tela principal agora mostra um aviso «Work in Progress»: o A.L.P.E.K. ainda está em desenvolvimento e telas e funções podem mudar."
       ]
@@ -421,18 +538,77 @@
       "es": [
         "Se corrige el aviso «Work in Progress» de la pantalla principal: ya no se ve el texto «construction» encima del aviso."
       ],
+      "fr": [
+        "Correction de l’avis « Travaux en cours » de l’écran principal : le texte « construction » n’apparaît plus par-dessus l’avis."
+      ],
       "pt": [
         "Corrigido o aviso «Work in Progress» da tela principal: o texto «construction» não aparece mais sobre o aviso."
+      ]
+    },
+    "4.13.9": {
+      "en": [
+        "New language: French (Canada), alongside Spanish, English and Portuguese. Choose it in Settings > General; it applies to screens, messages, the FAQ, release notes, the Excel file and the PDF summary.",
+        "The installer can also be used in French.",
+        "Data matching does not change: descriptions are compared as before, and SAP file headers are still recognized in English, Spanish and Portuguese or by their technical name."
+      ],
+      "es": [
+        "Nuevo idioma: francés (de Canadá), junto a español, inglés y portugués. Se elige en Ajustes > General y vale para las pantallas, los avisos, las preguntas frecuentes, las novedades, el Excel y el resumen en PDF.",
+        "El instalador también se puede usar en francés.",
+        "La comparación de datos no cambia: las descripciones se comparan igual que antes y las cabeceras de los archivos de SAP se siguen reconociendo en inglés, español y portugués o por su nombre técnico."
+      ],
+      "fr": [
+        "Nouvelle langue : le français (Canada), en plus de l’espagnol, de l’anglais et du portugais. Choisissez-la dans Paramètres > Général; elle s’applique aux écrans, aux messages, à la foire aux questions, aux nouveautés, au fichier Excel et au sommaire PDF.",
+        "Le programme d’installation peut aussi être utilisé en français.",
+        "La comparaison des données ne change pas : les désignations sont comparées comme avant, et les en-têtes des fichiers SAP sont toujours reconnus en anglais, en espagnol et en portugais ou par leur nom technique."
+      ],
+      "pt": [
+        "Novo idioma: francês (do Canadá), junto com espanhol, inglês e português. Escolha em Configurações > Geral; vale para as telas, os avisos, as perguntas frequentes, as novidades, o Excel e o resumo em PDF.",
+        "O instalador também pode ser usado em francês.",
+        "A comparação de dados não muda: as descrições são comparadas como antes e os cabeçalhos dos arquivos do SAP continuam sendo reconhecidos em inglês, espanhol e português ou pelo nome técnico."
+      ]
+    },
+    "5.13.9": {
+      "en": [
+        "New tool in Maintenance: «Equipment BOMs». Upload the SAP tables together as they come out of SE16N (EQST, STAS and STPO; STKO, MAKT and EQUI recommended) and the program builds each bill of materials and looks for duplicates, in ECC or in S/4HANA.",
+        "Every group explains why: the colour table, a component-by-component comparison (what is equal, what changes, how much each component weighs according to how rare it is), the similarity bar with the minimum line and the signals for and against. You decide: they are duplicates, they are not, or you are not sure.",
+        "A sure duplicate is only the same equipment with two BOMs with an identical list. Twin equipment with the same list are not considered duplicates: you can ask to see them in step 2 and they are never sure.",
+        "It also flags quality issues: BOMs without components, repeated components, equipment with more than one BOM, BOMs without plant and equipment without description. Levels and weights have not been calibrated with business decisions yet, and for now BOMs do not compare ECC against S/4HANA.",
+        "Equipment BOMs looks and works like Equipment: the Strict, Normal and Flexible cards are the selector (click anywhere on them), filters adjust to each other, and «Data quality» shows each issue with its full BOM and says «<Empty>» where a value is missing.",
+        "When you upload several spreadsheets you now see the status of each one: waiting, being read (with the seconds) or read, besides the progress bar. It works in every tool."
+      ],
+      "es": [
+        "Nueva herramienta en Mantenimiento: «BOM de equipos». Sube juntas las tablas de SAP tal como salen de SE16N (EQST, STAS y STPO; recomendadas STKO, MAKT y EQUI) y el programa arma cada lista de materiales y busca las duplicadas, en ECC o en S/4HANA.",
+        "Cada grupo explica el porqué: la tabla de colores, una comparación componente por componente (qué es igual, qué cambia, cuánto pesa cada componente según lo raro que es), la barra de parecido con la raya del mínimo y las señales a favor y en contra. Tú decides: son duplicados, no lo son o no estás seguro.",
+        "Duplicado seguro es solo el mismo equipo con dos BOM de lista idéntica. Los equipos gemelos con la misma lista no se consideran duplicados: puedes pedir verlos en el paso 2 y nunca salen como seguros.",
+        "También señala problemas de calidad: BOM sin componentes, componentes repetidos, equipos con más de una BOM, BOM sin centro y equipos sin descripción. Los niveles y pesos todavía no se han calibrado con decisiones del negocio, y por ahora BOM no compara ECC contra S/4HANA.",
+        "BOM de equipos se ve y se usa como Equipos: las tarjetas de Estricto, Normal y Flexible son el selector (clic en cualquier parte), los filtros se ajustan entre sí y «Calidad de los datos» muestra cada problema con su BOM completa y dice «<Vacío>» donde falta un dato.",
+        "Al subir varias planillas ahora ves el estado de cada una: en espera, leyéndose (con los segundos) o leída, además de la barra de avance. Funciona en todas las herramientas."
+      ],
+      "fr": [
+        "Nouvel outil dans Maintenance : « Nomenclatures d’équipement ». Chargez ensemble les tables SAP telles qu’elles sortent de SE16N (EQST, STAS et STPO; STKO, MAKT et EQUI recommandées) et le programme construit chaque liste de composants et cherche les doublons, dans ECC ou dans S/4HANA.",
+        "Chaque groupe explique pourquoi : le tableau en couleurs, une comparaison composant par composant (ce qui est identique, ce qui change, le poids de chaque composant selon sa rareté), la barre de ressemblance avec le trait du minimum et les signaux favorables et contraires. C’est vous qui décidez : ce sont des doublons, ce n’en sont pas ou vous n’êtes pas certain.",
+        "Un doublon certain, c’est uniquement le même équipement avec deux nomenclatures à liste identique. Les équipements jumeaux avec la même liste ne sont pas considérés comme des doublons : vous pouvez demander à les voir à l’étape 2 et ils ne sortent jamais comme certains.",
+        "L’outil signale aussi les problèmes de qualité : nomenclatures sans composants, composants répétés, équipements avec plus d’une nomenclature, nomenclatures sans division et équipements sans désignation. Les niveaux et les poids n’ont pas encore été calibrés avec des décisions des responsables métier, et pour l’instant les nomenclatures ne se comparent pas entre ECC et S/4HANA.",
+        "Les nomenclatures d’équipement se présentent et s’utilisent comme les Équipements : les cartes Strict, Normal et Souple servent de sélecteur (cliquez n’importe où), les filtres s’ajustent entre eux et la « Qualité des données » montre chaque problème avec sa nomenclature complète et affiche « <Vide> » là où il manque une donnée.",
+        "Quand vous chargez plusieurs fichiers, vous voyez maintenant l’état de chacun : en attente, en cours de lecture (avec les secondes) ou lu, en plus de la barre de progression. Cela fonctionne dans tous les outils."
+      ],
+      "pt": [
+        "Nova ferramenta em Manutenção: «BOM de equipamentos». Envie juntas as tabelas do SAP como saem da SE16N (EQST, STAS e STPO; recomendadas STKO, MAKT e EQUI) e o programa monta cada lista de materiais e procura as duplicadas, no ECC ou no S/4HANA.",
+        "Cada grupo explica o porquê: a tabela de cores, uma comparação componente por componente (o que é igual, o que muda, quanto pesa cada componente conforme a raridade), a barra de semelhança com a linha do mínimo e os sinais a favor e contra. Você decide: são duplicados, não são, ou você não tem certeza.",
+        "Duplicado certo é só o mesmo equipamento com duas BOM de lista idêntica. Equipamentos gêmeos com a mesma lista não são considerados duplicados: você pode pedir para vê-los no passo 2 e nunca saem como certos.",
+        "Também aponta problemas de qualidade: BOM sem componentes, componentes repetidos, equipamentos com mais de uma BOM, BOM sem centro e equipamentos sem descrição. Os níveis e pesos ainda não foram calibrados com decisões do negócio e, por enquanto, BOM não compara ECC com S/4HANA.",
+        "BOM de equipamentos tem a mesma aparência e uso de Equipamentos: os cartões Estrito, Normal e Flexível são o seletor (clique em qualquer parte), os filtros se ajustam entre si e «Qualidade dos dados» mostra cada problema com a BOM completa e diz «<Vazio>» onde falta um dado.",
+        "Ao enviar várias planilhas você agora vê o estado de cada uma: em espera, sendo lida (com os segundos) ou lida, além da barra de avanço. Funciona em todas as ferramentas."
       ]
     }
   },
   "paquetes": [
     {
-      "archivo": "app-265c00d0.zip",
-      "id": "app-265c00d0",
-      "sha256": "265c00d0dfe65c5499dcfd40f2056ecc9f65656406b237e5c6513cbaff3d7c21",
-      "tamano_bytes": 94276903,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.9/app-265c00d0.zip"
+      "archivo": "app-ee9af6d3.zip",
+      "id": "app-ee9af6d3",
+      "sha256": "ee9af6d3c14b29ccda188dadf55c5822d27cea16d4a2997ac9d0c629affb1d2e",
+      "tamano_bytes": 94500020,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v5.13.9/app-ee9af6d3.zip"
     },
     {
       "archivo": "duckdb_cp311-win_amd64_pyd-54b7e370.zip",
@@ -540,11 +716,11 @@
       "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v3.7.4/models-multilingual-e5-base-3-9df28fab.zip"
     },
     {
-      "archivo": "varios-1-0bdbbd67.zip",
-      "id": "varios-1-0bdbbd67",
-      "sha256": "0bdbbd673df44e445af9bb3087f77f34fbf899be31cfc5bb2f371accb77e0851",
-      "tamano_bytes": 39753810,
-      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v4.12.7/varios-1-0bdbbd67.zip"
+      "archivo": "varios-1-d6855ba9.zip",
+      "id": "varios-1-d6855ba9",
+      "sha256": "d6855ba9b650bb5e310e8e247e60582eab9d059fe23f80eceafd854bd2150408",
+      "tamano_bytes": 39755387,
+      "url": "https://github.com/SerchFA/ALPEK-Releases/releases/download/v5.13.9/varios-1-d6855ba9.zip"
     },
     {
       "archivo": "varios-2-1a52cedb.zip",
@@ -556,6 +732,6 @@
   ],
   "producto": "ALPEK",
   "solo_instalador": false,
-  "tipo": "fix",
-  "version": "4.12.9"
+  "tipo": "major",
+  "version": "5.13.9"
 }
